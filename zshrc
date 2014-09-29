@@ -38,3 +38,6 @@ export CPPFLAGS=-I/opt/X11/include
 # CC=/usr/local/bin/gcc-4.2
 
 # eval "$(gh alias -s)"
+
+# added by travis gem
+[ -f /Users/nathany/.travis/travis.sh ] && source /Users/nathany/.travis/travis.sh
