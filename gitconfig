@@ -3,8 +3,6 @@
 	name = Nathan Youngman
 [credential]
 	helper = osxkeychain
-[heroku]
-	account = personal
 [push]
 	default = tracking
 [core]

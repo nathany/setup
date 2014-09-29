@@ -12,28 +12,8 @@ Host github.com
   Compression yes
   IdentityFile ~/.ssh/github_rsa
 
-Host heroku.personal
+Host heroku.com
   HostName heroku.com
   IdentityFile /Users/nathany/.ssh/heroku_rsa
   IdentitiesOnly yes
 
-Host heroku.jobber
-  HostName heroku.com
-  IdentityFile /Users/nathany/.ssh/jobber_heroku_rsa
-  IdentitiesOnly yes
-
-Host heroku.fava
-  HostName heroku.com
-  IdentityFile /Users/nathany/.ssh/fava_heroku_rsa
-  IdentitiesOnly yes
-
-Host projectquest.ca
-  Hostname projectquest.ca
-  RSAAuthentication yes
-  Compression yes
-  IdentityFile ~/.ssh/github_rsa
-
-Host heroku.jobberinfo
-  HostName heroku.com
-  IdentityFile "/Users/nathany/.ssh/identity.heroku.jobberinfo"
-  IdentitiesOnly yes
