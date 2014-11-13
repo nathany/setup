@@ -23,7 +23,7 @@ export EDITOR="subl -w"
 
 # cd..
 setopt auto_cd
-cdpath=($HOME/src/github.com $HOME/src/gopkg.in $HOME/src/bitbucket.org $HOME/src/code.google.com/p $HOME/src/code.google.com/p/go/src/pkg $HOME/src/github.com/GetJobber $HOME/Development $HOME/Dropbox/Documents/Talks/)
+cdpath=($HOME/src/github.com $HOME/src/code.google.com/p/go/src $HOME/src/gopkg.in $HOME/src/bitbucket.org $HOME/src/golang.org $HOME/src/code.google.com/p $HOME/src/github.com/GetJobber $HOME/Development $HOME/Dropbox/Documents/Talks/)
 
 # Ruby
 export RUBY_GC_HEAP_INIT_SLOTS=600000
