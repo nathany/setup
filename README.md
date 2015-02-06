@@ -19,15 +19,6 @@ chsh -s /usr/local/bin/zsh
 
 ### Go
 
-#### rietveld code review
-
-.hg/hgrc for specific repos:
-
-```
-[extensions]
-codereview = ~/src/code.google.com/p/go/lib/codereview/codereview.py
-```
-
 ### hidden pkg
 
 ```console
