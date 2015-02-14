@@ -39,5 +39,12 @@ export CPPFLAGS=-I/opt/X11/include
 
 # eval "$(gh alias -s)"
 
+# Set a DOCKER_HOST environment variable that points to your VM
+# eval $(dvm env)
+
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=/Users/nathany/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
+
 # added by travis gem
 [ -f /Users/nathany/.travis/travis.sh ] && source /Users/nathany/.travis/travis.sh
