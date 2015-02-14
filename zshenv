@@ -7,7 +7,7 @@ export GOPATH=$HOME
 export PATH=$PATH:$HOME/src/code.google.com/p/go/bin:$HOME/bin
 
 # Postgres.app
-export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin":$PATH
+export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin":$PATH
 
 # RVM for Ruby
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
