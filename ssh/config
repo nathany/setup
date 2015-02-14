@@ -14,6 +14,6 @@ Host github.com
 
 Host heroku.com
   HostName heroku.com
-  IdentityFile /Users/nathany/.ssh/heroku_rsa
+  IdentityFile ~/.ssh/heroku_rsa
   IdentitiesOnly yes
 
