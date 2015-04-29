@@ -21,7 +21,7 @@ cmd.ksdiff = /usr/local/bin/ksdiff
 opts.ksdiff = --changeset --wait --filelist
 
 [web]
-cacerts = /etc/hg-ca-roots.pem
+# cacerts = /etc/hg-ca-roots.pem
 
 [merge-tools]
 Kaleidoscope.executable = /usr/local/bin/ksdiff
