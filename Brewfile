@@ -29,6 +29,8 @@ cask 'bbedit'
 cask 'tower'
 cask 'kaleidoscope'
 
+cask 'dropbox'
+cask 'google-drive'
 cask 'superduper'
 cask 'arq'
 cask 'transmit'
