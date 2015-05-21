@@ -19,6 +19,9 @@ plugins=(brew gem vagrant terminalapp bundler)
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
+# RCM
+export DOTFILES_DIRS=$HOME/src/github.com/nathany/dotfiles
+
 export EDITOR="subl -w"
 
 # cd..

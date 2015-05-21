@@ -26,12 +26,8 @@ brew bundle
 ### RCM
 
 ```console
-brew tap thoughtbot/formulae
-brew install rcm
-
-rcup -v -d ~/src/github.com/nathany/dotfiles
+rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE
 ```
-
 
 ### SSH Keys
 
