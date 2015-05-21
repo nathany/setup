@@ -26,7 +26,7 @@ brew bundle
 ### RCM
 
 ```console
-rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE
+rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE -x Brewfile
 ```
 
 ### Sublime Text
