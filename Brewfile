@@ -17,6 +17,7 @@ brew 'redis'
 
 cask 'postgres'
 
+cask 'google-chrome'
 cask 'alfred'
 cask '1password'
 cask 'things'
