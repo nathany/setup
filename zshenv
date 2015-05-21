@@ -1,7 +1,5 @@
 # zshenv - sourced on all invocations of the shell
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:$PATH
-
 # Go
 export GOPATH=$HOME
 export PATH=$PATH:$HOME/src/go.googlesource.com/go/bin:$HOME/bin
