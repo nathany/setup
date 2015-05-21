@@ -40,6 +40,8 @@ cask 'vagrant'
 cask 'virtualbox'
 cask 'vmware-fusion'
 
+cask 'flux'
+
 cask 'geekbench'
 
 cask 'screenflow'
