@@ -2,7 +2,7 @@ My personal dotfiles managed with [rcm](https://github.com/thoughtbot/rcm).
 
 ### Oh My Zsh
 
-```
+```console
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 ```
 
@@ -16,7 +16,7 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 
 [Homebrew](http://brew.sh/) with [bundle](https://github.com/Homebrew/homebrew-bundle)
 
-```
+```console
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew tap Homebrew/bundle
@@ -27,6 +27,16 @@ brew bundle
 
 ```console
 rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE
+```
+
+### Sublime Text
+
+[Symlink to Dropbox](https://packagecontrol.io/docs/syncing)
+
+```console
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+rm -r User
+ln -s ~/Dropbox/Application\ Support/Sublime\ Text/User
 ```
 
 ### SSH Keys
