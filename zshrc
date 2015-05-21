@@ -35,4 +35,4 @@ cdpath=($HOME/src/github.com $HOME/src/github.com/nathany $HOME/src/github.com/g
 # export DOCKER_TLS_VERIFY=1
 
 # added by travis gem
-[ -f /Users/nathany/.travis/travis.sh ] && source /Users/nathany/.travis/travis.sh
+# [ -f /Users/nathany/.travis/travis.sh ] && source /Users/nathany/.travis/travis.sh
