@@ -41,6 +41,7 @@ cask 'virtualbox'
 cask 'vmware-fusion'
 
 cask 'flux'
+cask 'duet'
 
 cask 'geekbench'
 
