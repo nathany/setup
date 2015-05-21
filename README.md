@@ -31,7 +31,9 @@ rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE -x Brewfile
 
 ### Sublime Text
 
-[Symlink to Dropbox](https://packagecontrol.io/docs/syncing)
+Install [Package Control](https://packagecontrol.io/installation).
+
+[Symlink to Dropbox](https://packagecontrol.io/docs/syncing):
 
 ```console
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
