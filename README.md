@@ -1,5 +1,17 @@
 My personal dotfiles managed with [rcm](https://github.com/thoughtbot/rcm).
 
+### Oh My Zsh
+
+```
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+```
+
+* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [Pure prompt](https://github.com/sindresorhus/pure) (included with oh-my-zsh)
+* [Tomorrow Night theme](https://github.com/chriskempson/tomorrow-theme)
+
+(Note: oh-my-zsh install overwrites .zshrc, so install it first)
+
 ### Homebrew
 
 [Homebrew](http://brew.sh/) with [bundle](https://github.com/Homebrew/homebrew-bundle)
@@ -11,20 +23,6 @@ brew tap Homebrew/bundle
 brew bundle
 ```
 
-
-### ZSH
-
-Latest version:
-
-```console
-brew install zsh
-chsh -s /usr/local/bin/zsh
-```
-
-* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-* [Pure prompt](https://github.com/sindresorhus/pure) (included with oh-my-zsh)
-* [Tomorrow Night theme](https://github.com/chriskempson/tomorrow-theme)
-
 ### RCM
 
 ```console
@@ -34,7 +32,6 @@ brew install rcm
 rcup -v -d ~/src/github.com/nathany/dotfiles
 ```
 
-(Note: oh-my-zsh install overwrites .zshrc)
 
 ### SSH Keys
 
