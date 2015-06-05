@@ -11,6 +11,7 @@ brew 'rcm'
 brew 'sassc'
 
 brew 'git'
+brew 'hub'
 brew 'mercurial'
 
 brew 'redis'
