@@ -15,7 +15,12 @@ brew 'mercurial'
 
 brew 'redis'
 
-cask 'postgres'
+brew 'qt' # for capybara
+
+brew 'boot2docker'
+brew 'docker-compose'
+
+# cask 'postgres'
 
 cask 'google-chrome'
 cask 'alfred'
