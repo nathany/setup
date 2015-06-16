@@ -14,6 +14,8 @@ brew 'git'
 brew 'hub'
 brew 'mercurial'
 
+brew 'awscli'
+
 brew 'redis'
 
 brew 'qt' # for capybara
