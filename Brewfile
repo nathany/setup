@@ -20,8 +20,9 @@ brew 'redis'
 
 brew 'qt' # for capybara
 
-brew 'boot2docker'
+# brew 'boot2docker'
 brew 'docker-compose'
+brew 'docker-machine'
 
 # cask 'postgres'
 
