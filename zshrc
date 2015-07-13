@@ -16,6 +16,8 @@ plugins=(brew gem vagrant terminalapp bundler)
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias pmp="osascript ~/Development/styleterm.scpt 'Red Sands'; ssh deploy@primus_production; osascript ~/Development/styleterm.scpt 'Pro'"
 
+alias go14="/Users/nathany/src/go.googlesource.com/go1.4/bin/go"
+
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
@@ -31,7 +33,8 @@ cdpath=($HOME/src/github.com $HOME/src/github.com/nathany $HOME/src/github.com/g
 # eval "$(gh alias -s)"
 
 # Set a DOCKER_HOST and related environment variables
-eval "$(docker-machine env dev)"
+# docker-machine start dev
+# eval "$(docker-machine env dev)"
 
 # added by travis gem
 # [ -f /Users/nathany/.travis/travis.sh ] && source /Users/nathany/.travis/travis.sh
