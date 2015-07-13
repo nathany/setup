@@ -14,14 +14,17 @@ brew 'git'
 brew 'hub'
 brew 'mercurial'
 
+brew 'awscli'
+
 brew 'redis'
 
 brew 'ruby'
 brew 'python3'
 brew 'qt' # for capybara
 
-brew 'boot2docker'
+# brew 'boot2docker'
 brew 'docker-compose'
+brew 'docker-machine'
 
 # cask 'postgres'
 
