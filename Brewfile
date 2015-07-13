@@ -16,6 +16,8 @@ brew 'mercurial'
 
 brew 'redis'
 
+brew 'ruby'
+brew 'python3'
 brew 'qt' # for capybara
 
 brew 'boot2docker'
@@ -52,6 +54,7 @@ cask 'duet'
 cask 'geekbench'
 
 cask 'screenflow'
+cask 'imageoptim'
 
 # adobe-creative-cloud
 # adobe-photoshop-lightroom
