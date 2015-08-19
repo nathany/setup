@@ -17,3 +17,7 @@ Host heroku.com
   IdentityFile ~/.ssh/heroku_rsa
   IdentitiesOnly yes
 
+Host git.manning.com
+  HostName git.manning.com
+  IdentityFile ~/.ssh/manning_rsa
+  IdentitiesOnly yes
