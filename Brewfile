@@ -70,6 +70,7 @@ cask 'geekbench'
 cask 'screenflow'
 cask 'imageoptim'
 
+cask 'razer-synapse'
 cask 'scroll-reverser'
 
 # adobe-creative-cloud
