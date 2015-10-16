@@ -2,9 +2,10 @@
     "source": [
         {"folder": "/Users/nathany/Dropbox/Apps/O'Reilly Media"},
         {"folder": "/Users/nathany/Dropbox/Apps/Pragmatic Bookshelf", "limit": true},
-        {"folder": "/Users/nathany/Books/Purchased Books"},
-        {"folder": "/Users/nathany/Books/free"},
-        {"folder": "/Users/nathany/Books/Calibre"}
+        {"folder": "/Users/nathany/Dropbox/Apps/Manning Books"},
+        {"folder": "/Users/nathany/Google Drive/Books"},
+        {"folder": "/Volumes/Bastion/Stash/Books/free"},
+        {"folder": "/Volumes/Bastion/Stash/Books/Calibre"}
     ],
     "exclude": [
         "/Users/nathany/Dropbox/Apps/Pragmatic Bookshelf/Working with Unix Processes/*",
@@ -18,9 +19,9 @@
         "build-awesome-command-line-applications-in-ruby.p1_0.epub",
         "crafting-rails-applications.p1_0.epub",
         "metaprogramming-ruby.p4_0.epub",
-        "/Users/nathany/Books/Purchased Books/apress/epub/Managing_Humans.epub",
+        "/Users/nathany/Google Drive/Books/apress/epub/Managing_Humans.epub",
         "Rails_3_in_Action_v1_PUBLISH.epub",
-        "The_Well-Grounded_Ruby-1ed.epub",
+        "/Users/nathany/Dropbox/Apps/Manning Books/The Well-Grounded Rubyist/*",
         "jQuery_in_Action.epub",
         "Introducing HTML5 (Voices That Matter) - Bruce Lawson.epub",
 
@@ -35,7 +36,7 @@
 
         "Essential ActionScript*",
         "*Moodle*",
-        "/Users/nathany/Books/Purchased Books/apress/epub/Learn*Mac.epub",
+        "/Users/nathany/Google Drive/Books/apress/epub/Learn*Mac.epub",
         "What's New in Java 7.epub",
         "*ANTLR*",
 
@@ -47,6 +48,6 @@
         "folder": "/Volumes/KOBOeReader/books"
     },
     "backup": {
-        "folder": "/Backup"
+        "folder": "/Volumes/Bastion/Backup"
     }
 }
