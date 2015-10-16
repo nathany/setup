@@ -1,0 +1,52 @@
+{
+    "source": [
+        {"folder": "/Users/nathany/Dropbox/Apps/O'Reilly Media"},
+        {"folder": "/Users/nathany/Dropbox/Apps/Pragmatic Bookshelf", "limit": true},
+        {"folder": "/Users/nathany/Books/Purchased Books"},
+        {"folder": "/Users/nathany/Books/free"},
+        {"folder": "/Users/nathany/Books/Calibre"}
+    ],
+    "exclude": [
+        "/Users/nathany/Dropbox/Apps/Pragmatic Bookshelf/Working with Unix Processes/*",
+
+        "/Users/nathany/Dropbox/Apps/Pragmatic Bookshelf/Agile Web Development with Rails (3rd edition)/*",
+        "/Users/nathany/Dropbox/Apps/Pragmatic Bookshelf/Agile Web Development with Rails (4th edition)/*",
+        "programming-ruby-1-9.*",
+        "Rails 3 Way*",
+        "Programming Google App Engine.epub",
+        "The Book of CSS3_ A Developer's Guide to t - Peter Gasston.epub",
+        "build-awesome-command-line-applications-in-ruby.p1_0.epub",
+        "crafting-rails-applications.p1_0.epub",
+        "metaprogramming-ruby.p4_0.epub",
+        "/Users/nathany/Books/Purchased Books/apress/epub/Managing_Humans.epub",
+        "Rails_3_in_Action_v1_PUBLISH.epub",
+        "The_Well-Grounded_Ruby-1ed.epub",
+        "jQuery_in_Action.epub",
+        "Introducing HTML5 (Voices That Matter) - Bruce Lawson.epub",
+
+        "iphone-sdk-development.p2_0.epub",
+        "The_Definitive_Guide_to_SQLite.epub",
+
+        "rails-recipes.*",
+        "advanced-rails-recipes.*",
+        "core-animation-for-mac-os-x-and-the-iphone.*",
+        "programming-cocoa-with-ruby.p1_0.epub",
+        "prototype-and-script-aculo-us.p2_0.epub",
+
+        "Essential ActionScript*",
+        "*Moodle*",
+        "/Users/nathany/Books/Purchased Books/apress/epub/Learn*Mac.epub",
+        "What's New in Java 7.epub",
+        "*ANTLR*",
+
+        "css3-for-web-designers-video.epub",
+        "responsive-web-design-video.epub"
+    ],
+    "dest": {
+        "mount": "/Volumes/KOBOeReader",
+        "folder": "/Volumes/KOBOeReader/books"
+    },
+    "backup": {
+        "folder": "/Backup"
+    }
+}
