@@ -13,6 +13,7 @@ Plug 'fatih/vim-go'
 Plug 'asciidoc/vim-asciidoc'
 
 Plug 'tpope/vim-vinegar' " file explorer (netrw)
+Plug 'tpope/vim-commentary' " comment out lines
 
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
@@ -27,6 +28,11 @@ set noswapfile
 
 " ignore files
 set wildignore=.DS_Store,.git/**
+
+" yank to system clipboard
+set clipboard+=unnamedplus
+
+set hlsearch
 
 " vim-go configuration
 let g:go_highlight_functions = 1
