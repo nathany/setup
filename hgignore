@@ -3,9 +3,6 @@ syntax:glob
 .git
 .gitignore
 .DS_Store
-*.sublime-workspace
-*.sublime-project
-
 
 # srclib build cache
 .srclib-cache/

@@ -30,18 +30,6 @@ brew bundle
 rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE -x Brewfile
 ```
 
-### Sublime Text
-
-Install [Package Control](https://packagecontrol.io/installation).
-
-[Symlink to Dropbox](https://packagecontrol.io/docs/syncing):
-
-```console
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-rm -r User
-ln -s ~/Dropbox/Application\ Support/Sublime\ Text/User
-```
-
 ### SSH Keys
 
 New SSH keys need to be created ([GitHub](https://help.github.com/articles/generating-ssh-keys/)).

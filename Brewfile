@@ -5,7 +5,6 @@
 tap 'homebrew/bundle'
 
 tap 'caskroom/cask'
-tap 'caskroom/versions' # for sublime-text-dev
 brew 'brew-cask'
 
 tap 'thoughtbot/formulae'
@@ -42,10 +41,9 @@ cask 'alfred'
 cask '1password'
 cask 'things'
 
-cask 'sublime-text-dev'
 cask 'textmate'
 cask 'bbedit'
-cask 'atom'
+cask 'atom-beta'
 
 cask 'tower'
 cask 'kaleidoscope'
