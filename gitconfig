@@ -6,7 +6,7 @@
 	helper = osxkeychain
 
 [push]
-	default = tracking
+	default = simple
 
 [core]
 	quotepath = false
