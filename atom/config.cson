@@ -1,0 +1,23 @@
+"*":
+  "exception-reporting":
+    userId: "88c9f1d6-9395-6a8e-c59e-3b34deb6867d"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-light-ui"
+      "pen-paper-coffee-syntax"
+    ]
+    audioBeep: false
+    projectHome: "/Users/nathany/src/github.com/nathany"
+  editor:
+    invisibles: {}
+    fontFamily: "Menlo"
+    fontSize: 20
+    showIndentGuide: true
+    softTabs: false
+    tabLength: 4
+  "go-plus": {}
+  "go-find-references": {}
+  "asciidoc-preview": {}
+  "symbols-tree-view": {}
