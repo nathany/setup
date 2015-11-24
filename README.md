@@ -24,6 +24,14 @@ brew tap Homebrew/bundle
 brew bundle
 ```
 
+### Atom
+
+My favourite packages and themes can be installed with:
+
+```
+apm stars —-install
+```
+
 ### RCM
 
 ```console
