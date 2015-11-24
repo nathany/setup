@@ -16,7 +16,11 @@ plugins=(brew gem vagrant terminalapp bundler)
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias pmp="osascript ~/Development/styleterm.scpt 'Red Sands'; ssh deploy@primus_production; osascript ~/Development/styleterm.scpt 'Pro'"
 
+alias atom="atom-beta"
+alias apm="apm-beta"
+
 alias go14="/Users/nathany/src/go.googlesource.com/go1.4/bin/go"
+alias go15="/Users/nathany/src/go.googlesource.com/go1.5/bin/go"
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
@@ -24,7 +28,7 @@ unsetopt correct_all
 # RCM
 export DOTFILES_DIRS=$HOME/src/github.com/nathany/dotfiles
 
-export EDITOR="subl -w"
+export EDITOR="atom -w"
 
 # cd..
 setopt auto_cd
