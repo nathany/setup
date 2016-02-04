@@ -5,7 +5,6 @@
 tap 'homebrew/bundle'
 
 tap 'caskroom/cask'
-brew 'brew-cask'
 
 tap 'thoughtbot/formulae'
 brew 'rcm'
