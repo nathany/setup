@@ -5,7 +5,15 @@
 	],
 	"installed_packages":
 	[
+		"AsciiDoc",
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
 		"MarkdownEditing",
-		"Material Theme"
+		"Material Theme",
+		"Sass",
+		"Theme - Cobalt2",
+		"Theme - Flatland",
+		"TOML",
+		"Tomorrow Color Schemes"
 	]
 }
