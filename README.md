@@ -38,6 +38,12 @@ apm stars —-install
 rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE -x Brewfile
 ```
 
+### Vim
+
+Install [vim-plug](https://github.com/junegunn/vim-plug). Then start `vim` and use the `:PlugInstall` command to install the plugins in `.vimrc`.
+
+Install a [Powerline font](https://github.com/powerline/fonts) like Meslo LG M Regular and configure Terminal.
+
 ### SSH Keys
 
 New SSH keys need to be created ([GitHub](https://help.github.com/articles/generating-ssh-keys/)).

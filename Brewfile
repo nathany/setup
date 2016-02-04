@@ -47,6 +47,7 @@ cask 'things'
 cask 'textmate'
 cask 'bbedit'
 cask 'atom-beta'
+brew 'vim'
 
 cask 'tower'
 cask 'kaleidoscope'
