@@ -1,26 +1,26 @@
 "*":
-  "exception-reporting":
-    userId: "88c9f1d6-9395-6a8e-c59e-3b34deb6867d"
-  welcome:
-    showOnStartup: false
+  "asciidoc-preview": {}
   core:
-    themes: [
-      "one-light-ui"
-      "pen-paper-coffee-syntax"
-    ]
     audioBeep: false
     projectHome: "/Users/nathany/src/github.com/nathany"
+    themes: [
+      "atom-material-ui"
+      "material-syntax"
+    ]
   editor:
-    invisibles: {}
     fontFamily: "Menlo"
     fontSize: 20
+    invisibles: {}
     showIndentGuide: true
     softTabs: false
-    tabLength: 4
     softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "88c9f1d6-9395-6a8e-c59e-3b34deb6867d"
+  "go-find-references": {}
   "go-plus":
     formatTool: "goreturns"
-  "go-find-references": {}
-  "asciidoc-preview": {}
   "symbols-tree-view": {}
+  welcome:
+    showOnStartup: false
   wordcount: {}
