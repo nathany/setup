@@ -28,7 +28,7 @@ unsetopt correct_all
 # RCM
 export DOTFILES_DIRS=$HOME/src/github.com/nathany/dotfiles
 
-export EDITOR="atom -w"
+export EDITOR="atom-beta -w"
 
 # cd..
 setopt auto_cd
