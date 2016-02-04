@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"theme": "Material-Theme.sublime-theme",
+	"font_face": "Menlo",
+	"font_size": 20.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}
