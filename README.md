@@ -24,6 +24,12 @@ brew tap Homebrew/bundle
 brew bundle
 ```
 
+### RCM
+
+```console
+rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE -x Brewfile -x sublime
+```
+
 ### Sublime Text
 
 Install [Package Control](https://packagecontrol.io/installation).
@@ -42,12 +48,6 @@ My favourite packages and themes can be installed with:
 
 ```
 apm stars —-install
-```
-
-### RCM
-
-```console
-rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE -x Brewfile -x sublime
 ```
 
 ### Vim
