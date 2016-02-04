@@ -24,6 +24,18 @@ brew tap Homebrew/bundle
 brew bundle
 ```
 
+### Sublime Text
+
+Install [Package Control](https://packagecontrol.io/installation).
+
+[Symlink to dotfiles](https://packagecontrol.io/docs/syncing):
+
+```
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+rm -r User
+ln -s ~/src/github.com/nathany/dotfiles/sublime/User/
+```
+
 ### Atom
 
 My favourite packages and themes can be installed with:
