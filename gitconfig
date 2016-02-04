@@ -42,3 +42,7 @@
   pending = codereview pending
   submit = codereview submit
   sync = codereview sync
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true

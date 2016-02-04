@@ -14,6 +14,7 @@ brew 'sassc'
 
 brew 'git'
 brew 'hub'
+brew 'git-lfs'
 
 brew 'redis'
 
