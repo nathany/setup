@@ -18,6 +18,9 @@ Plug 'tpope/vim-commentary' " comment out lines
 " completion
 Plug 'Shougo/neocomplete.vim'
 
+" class outline viewer
+Plug 'majutsushi/tagbar'
+
 " Add plugins to &runtimepath
 call plug#end()
 
