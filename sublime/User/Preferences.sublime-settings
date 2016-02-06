@@ -15,38 +15,16 @@
 		"online",
 		"Malacandra"
 	],
-
-	// Always visualize the viewport on the minimap, as opposed to only
-    // showing it on mouse over
-    "always_show_minimap_viewport": true,
-
-    // By default, auto complete will commit the current completion on enter.
-    // This setting can be used to make it complete on tab instead.
-    // Completing on tab is generally a superior option, as it removes
-    // ambiguity between committing the completion and inserting a newline.
-    "auto_complete_commit_on_tab": true,
-
-    // Show folders in the side bar in bold
-    "bold_folder_labels": true,
-
-    // OS X only: This controls if an empty window is created at startup or not.
-    "create_window_at_startup": false,
-
+	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-
-	// Set to true to ensure the last line of the file ends in a newline
-    // character when saving
-    "ensure_newline_at_eof_on_save": true,
-
+	"create_window_at_startup": false,
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Menlo",
 	"font_size": 20.0,
-
-    // If enabled, will highlight any line with a caret
-    "highlight_line": true,
-
-    // Makes tabs with modified files more visible
-    "highlight_modified_tabs": true,
-
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Markdown",
@@ -68,21 +46,21 @@
 		"png",
 		"struct"
 	],
-	"indent_guide_options": ["draw_normal","draw_active"],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
-	// Highlights other occurrences of the currently selected text
-    "match_selection": false,
-	// Columns in which to display vertical rulers
-    "rulers":
+	"match_selection": false,
+	"rulers":
 	[
 		79,
 		94
 	],
 	"shift_tab_unindent": true,
-	// Set to true to turn spell checking on by default
-    "spell_check": true,
-    // Set to true to removing trailing white space on save
-    "trim_trailing_white_space_on_save": true,
-	"theme": "Material-Theme.sublime-theme"
+	"spell_check": true,
+	"theme": "Material-Theme.sublime-theme",
+	"trim_trailing_white_space_on_save": true
 }
