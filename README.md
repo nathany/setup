@@ -54,6 +54,19 @@ apm stars —-install
 
 Install [vim-plug](https://github.com/junegunn/vim-plug). Then start `vim` and use the `:PlugInstall` command to install the plugins in `.vimrc`.
 
+Run `:GoUpdateBinaries` to (re)install the latest versions of [gocode][], [gometalinter][], [goimports][], [godef][], [oracle][], [gorename][], [golint][], [errcheck][], [gotags][], and [asmfmt][].
+
+[gocode]: https://github.com/nsf/gocode
+[gometalinter]: https://github.com/alecthomas/gometalinter
+[goimports]: https://golang.org/x/tools/cmd/goimports
+[godef]: https://github.com/rogpeppe/godef
+[oracle]: https://golang.org/x/tools/cmd/oracle
+[gorename]: https://golang.org/x/tools/cmd/gorename
+[golint]: https://github.com/golang/lint/golint
+[errcheck]: https://github.com/kisielk/errcheck
+[gotags]: https://github.com/jstemmer/gotags
+[asmfmt]: https://github.com/klauspost/asmfmt/cmd/asmfmt
+
 Install a [Powerline font](https://github.com/powerline/fonts) like Meslo LG M Regular and configure Terminal.
 
 ### SSH Keys
