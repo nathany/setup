@@ -44,6 +44,8 @@ let g:go_highlight_build_constraints = 1
 
 let g:go_fmt_command = "goimports"
 
+" spell checking
+" set spell spelllang=en_us
 
 " disable beeps
 set noerrorbells visualbell t_vb=
