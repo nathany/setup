@@ -62,5 +62,8 @@
 	"shift_tab_unindent": true,
 	"spell_check": true,
 	"theme": "Material-Theme.sublime-theme",
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"env": {
+        "PATH": "/usr/local/bin/"
+    }
 }

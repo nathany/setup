@@ -24,3 +24,9 @@
   welcome:
     showOnStartup: false
   wordcount: {}
+".elixir.source":
+  editor:
+    tabLength: 2
+".elixir.text":
+  editor:
+    tabLength: 2
