@@ -55,6 +55,7 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"font_options": [ "gray_antialias", "subpixel_antialias" ],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"match_selection": false,
@@ -66,5 +67,10 @@
 	"shift_tab_unindent": true,
 	"spell_check": true,
 	"theme": "Material-Theme.sublime-theme",
+	"material_theme_small_tab": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_accent_lime": true,
+	"overlay_scroll_bars": true,
 	"trim_trailing_white_space_on_save": true
 }
