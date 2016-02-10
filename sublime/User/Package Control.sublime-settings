@@ -6,18 +6,22 @@
 	"installed_packages":
 	[
 		"AsciiDoc",
+		"Boron Color Scheme",
 		"Dockerfile Syntax Highlighting",
 		"Elixir",
 		"ElixirSublime",
 		"GitGutter",
 		"MarkdownEditing",
 		"Material Theme",
+		"Material Theme - Appbar",
 		"Package Control",
 		"Sass",
+		"SideBarEnhancements",
 		"SublimeLinter",
 		"Theme - Cobalt2",
 		"Theme - Flatland",
 		"TOML",
-		"Tomorrow Color Schemes"
+		"Tomorrow Color Schemes",
+		"VimL"
 	]
 }
