@@ -1,0 +1,73 @@
+[
+	// cmd-o to open a file in project instead of the OS dialog
+	{ "keys": ["super+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	// quick switch project
+	{ "keys": ["super+p"], "command": "prompt_select_workspace" },
+
+	// cmd+w closes a file so cmd+shift+w reopens it
+	{ "keys": ["super+shift+w"], "command": "reopen_last_file" },
+
+	// cmd+f with enter to close the panel
+	{ "keys": ["enter"], "command": "hide_panel", "context":
+		[{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+	},
+
+	// jump to line number
+	{ "keys": ["ctrl+j"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+	// sublime linter
+	{ "keys": ["ctrl+."], "command": "sublimelinter_goto_error", "args": {"direction": "next"} },
+    { "keys": ["ctrl+,"], "command": "sublimelinter_goto_error", "args": {"direction": "previous"} },
+    { "keys": ["ctrl+l"], "command": "sublimelinter_show_all_errors" },
+
+    // navigation
+	{ "keys": ["super+,"], "command": "jump_back" },
+	{ "keys": ["super+."], "command": "jump_forward" },
+	{ "keys": ["super+alt+up"], "command": "jump_back" },
+	{ "keys": ["super+alt+down"], "command": "goto_definition" },
+
+	// open specific files
+	{ "keys": ["ctrl+o", "ctrl+p"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
+
+	// GoSublime
+
+	// import panel
+	{
+		"keys": ["super+i"],
+		"command": "gs_palette",
+		"args": {"palette": "imports", "direct": true},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+	// jump to imports
+	{
+		"keys": ["ctrl+i"],
+		"command": "gs_palette",
+		"args": {"palette": "jump_to_imports"},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+
+	// override goto symbol in Go source
+	{
+		"keys": ["ctrl+r"],
+		"command": "gs_palette",
+		"args": {"palette": "declarations", "direct": true},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+	{
+		"keys": ["super+r"],
+		"command": "gs_browse_declarations",
+		"args": { "dir": "." },
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+	{
+		"keys": ["super+shift+r"],
+		"command": "gs_browse_declarations",
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+	// open file in any package
+	{
+		"keys": ["super+shift+o"],
+		"command": "gs_browse_packages",
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+]
