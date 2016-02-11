@@ -20,6 +20,7 @@
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeLinter",
+		"SublimeLinter-contrib-gometalinter",
 		"Theme - Cobalt2",
 		"Theme - Flatland",
 		"TOML",

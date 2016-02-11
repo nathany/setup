@@ -42,6 +42,8 @@ rm -r User
 ln -s ~/src/github.com/nathany/dotfiles/sublime/User/
 ```
 
+Install [gometalinter](https://github.com/alecthomas/gometalinter) and run `gometalinter --install --update`.
+
 ### Atom
 
 My favourite packages and themes can be installed with:
