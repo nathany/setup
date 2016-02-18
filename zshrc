@@ -32,7 +32,7 @@ export EDITOR="subl -w"
 
 # cd..
 setopt auto_cd
-cdpath=($HOME/src/github.com $HOME/src/github.com/nathany $HOME/src/github.com/go-fsnotify $HOME/src/github.com/RobotsAndPencils $HOME/src/go.googlesource.com $HOME/src/go.googlesource.com/go/src $HOME/src/gopkg.in $HOME/src/bitbucket.org $HOME/src/golang.org $HOME/Dropbox/Documents/Talks/)
+cdpath=($HOME/src/github.com $HOME/src/github.com/nathany $HOME/src/github.com/fsnotify $HOME/src/github.com/RobotsAndPencils $HOME/src/go.googlesource.com $HOME/src/go.googlesource.com/go/src $HOME/src/gopkg.in $HOME/src/bitbucket.org $HOME/src/golang.org $HOME/Dropbox/Documents/Talks/)
 
 # eval "$(gh alias -s)"
 
