@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"AsciiDoc",
+		"Babel",
 		"Boron Color Scheme",
 		"Dockerfile Syntax Highlighting",
 		"Elixir",
