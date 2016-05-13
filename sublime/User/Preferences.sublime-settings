@@ -74,10 +74,12 @@
 		"io",
 		"json",
 		"mux",
+		"omitempty",
 		"org",
 		"png",
 		"sourcedir",
-		"struct"
+		"struct",
+		"yaml"
 	],
 	"indent_guide_options":
 	[
