@@ -31,9 +31,6 @@ brew 'gource'
 brew 'ffmpeg'
 
 brew 'awscli'
-brew 'boot2docker'
-brew 'docker-compose'
-brew 'docker-machine'
 cask 'google-cloud-sdk'
 
 cask 'sequel-pro'
