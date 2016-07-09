@@ -12,6 +12,8 @@ brew 'rcm'
 
 brew 'sassc'
 
+brew 'jq'
+
 brew 'git'
 brew 'hub'
 brew 'git-lfs'
