@@ -17,27 +17,35 @@ brew 'jq'
 brew 'git'
 brew 'hub'
 brew 'git-lfs'
+# brew 'mercurial'
 
-brew 'redis'
-
-brew 'ruby'
-brew 'python3'
-# brew 'qt' # for capybara
+# brew 'ruby'
+# brew 'python3'
+# brew 'lua'
+# brew 'luajit'
+# brew 'node'
 
 brew 'readline' # for Looper
 brew 'openssl'
 
-brew 'gource'
-brew 'ffmpeg'
+brew 'epubcheck'
+cask 'kindlegen'
+
+# brew 'gource'
+# brew 'ffmpeg'
 
 brew 'awscli'
 cask 'google-cloud-sdk'
 
-cask 'sequel-pro'
+brew 'redis'
 cask 'postgres'
+# cask 'sequel-pro'
 
 cask 'google-chrome'
 cask 'firefox'
+# cask 'opera'
+# cask 'opera-beta'
+# cask 'transmission'
 
 cask 'alfred'
 cask '1password'
@@ -46,18 +54,25 @@ cask 'things'
 cask 'sublime-text-dev'
 cask 'textmate'
 cask 'bbedit'
+cask 'atom'
 cask 'atom-beta'
-brew 'vim'
+cask 'visual-studio-code'
+brew 'vim', args: ['with-luajit']
+# brew 'neovim'
+
+# cask 'karabiner'
+# cask 'seil'
 
 cask 'tower'
 cask 'kaleidoscope'
 
 cask 'dropbox'
-cask 'google-drive'
 cask 'superduper'
 cask 'arq'
 cask 'transmit'
 cask 'daisydisk'
+cask 'diskmaker-x' # to make USB keys for macOS installation
+# cask 'softraid'
 cask 'applepi-baker'
 
 cask 'vagrant'
@@ -65,26 +80,33 @@ cask 'virtualbox'
 cask 'vmware-fusion'
 
 cask 'flux'
-cask 'duet'
+# cask 'duet'
 
-cask 'geekbench'
+# cask 'geekbench'
 
-cask 'screenflow'
 cask 'imageoptim'
-
-cask 'razer-synapse'
-cask 'scroll-reverser'
-
-# adobe-creative-cloud
+# cask 'adobe-creative-cloud'
 cask 'adobe-photoshop-lightroom'
-
-cask '4k-video-downloader'
-cask 'handbrake'
+cask 'screenflow'
 
 cask 'skype'
 
+cask '4k-video-downloader'
+# cask 'blu-ray-player'
+cask 'handbrake'
+cask 'vlc'
+# cask 'kodi'
+
 cask 'steam'
+cask 'gog-galaxy'
+
+cask 'razer-synapse'
+# cask 'scroll-reverser'
 
 # omnigraffle
 # omnioutliner
 # omnifocus
+# macjournal
+# mellel
+
+# cask 'xquartz'
