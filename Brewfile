@@ -39,7 +39,8 @@ cask 'google-cloud-sdk'
 
 brew 'redis'
 cask 'postgres'
-# cask 'sequel-pro'
+brew 'mysql'
+cask 'sequel-pro'
 
 cask 'google-chrome'
 cask 'firefox'
