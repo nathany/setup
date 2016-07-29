@@ -12,6 +12,7 @@ brew 'rcm'
 
 brew 'sassc'
 
+cask 'iterm2'
 brew 'jq'
 
 brew 'git'
