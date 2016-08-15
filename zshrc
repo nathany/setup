@@ -22,6 +22,7 @@ alias apm="apm-beta"
 alias go14="/Users/nathany/src/go.googlesource.com/go1.4/bin/go"
 alias go15="/Users/nathany/src/go.googlesource.com/go1.5/bin/go"
 alias go16="/Users/nathany/src/go.googlesource.com/go1.6/bin/go"
+alias go17="/Users/nathany/src/go.googlesource.com/go1.7/bin/go"
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
