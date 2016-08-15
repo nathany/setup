@@ -2,6 +2,9 @@
   "asciidoc-preview": {}
   core:
     audioBeep: false
+    disabledPackages: [
+      "metrics"
+    ]
     projectHome: "/Users/nathany/src/github.com/nathany"
     themes: [
       "atom-material-ui"
