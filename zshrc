@@ -9,7 +9,7 @@ ZSH_THEME="pure"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(brew gem vagrant terminalapp bundler)
+plugins=(brew vagrant terminalapp bundler)
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -20,7 +20,6 @@ alias atom="atom-beta"
 alias apm="apm-beta"
 
 alias go14="/Users/nathany/src/go.googlesource.com/go1.4/bin/go"
-alias go15="/Users/nathany/src/go.googlesource.com/go1.5/bin/go"
 alias go16="/Users/nathany/src/go.googlesource.com/go1.6/bin/go"
 alias go17="/Users/nathany/src/go.googlesource.com/go1.7/bin/go"
 
