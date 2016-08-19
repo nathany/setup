@@ -93,7 +93,7 @@ cask 'screenflow'
 
 cask 'skype'
 
-cask '4k-video-downloader'
+brew 'youtube-dl'
 # cask 'blu-ray-player'
 cask 'handbrake'
 cask 'vlc'
