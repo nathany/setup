@@ -32,9 +32,6 @@ brew 'openssl'
 brew 'epubcheck'
 cask 'kindlegen'
 
-# brew 'gource'
-# brew 'ffmpeg'
-
 brew 'awscli'
 cask 'google-cloud-sdk'
 
@@ -93,7 +90,9 @@ cask 'screenflow'
 
 cask 'skype'
 
+# brew 'gource'
 brew 'youtube-dl'
+brew 'ffmpeg'
 # cask 'blu-ray-player'
 cask 'handbrake'
 cask 'vlc'
