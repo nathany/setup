@@ -11,6 +11,7 @@ Plug 'nanotech/jellybeans.vim'
 " support for file types
 Plug 'fatih/vim-go'
 Plug 'asciidoc/vim-asciidoc'
+Plug 'elixir-lang/vim-elixir'
 
 Plug 'tpope/vim-vinegar' " file explorer (netrw)
 Plug 'tpope/vim-commentary' " comment out lines
