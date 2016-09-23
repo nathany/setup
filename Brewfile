@@ -23,7 +23,7 @@ brew 'git-lfs'
 # brew 'ruby'
 # brew 'python3'
 # brew 'lua'
-# brew 'luajit'
+brew 'luajit'
 # brew 'node'
 
 brew 'readline' # for Looper
