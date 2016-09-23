@@ -6,6 +6,7 @@
       "metrics"
     ]
     projectHome: "/Users/nathany/src/github.com/nathany"
+    telemetryConsent: "no"
     themes: [
       "atom-material-ui"
       "material-syntax"
