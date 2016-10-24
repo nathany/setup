@@ -49,6 +49,7 @@ cask 'firefox'
 cask 'alfred'
 cask '1password'
 cask 'things'
+cask 'dash'
 
 cask 'sublime-text-dev'
 cask 'textmate'
