@@ -7,6 +7,8 @@ tap 'homebrew/bundle'
 tap 'caskroom/cask'
 tap 'caskroom/versions' # for sublime-text-dev
 
+brew 'mas' # mac app store
+
 tap 'thoughtbot/formulae'
 brew 'rcm'
 
