@@ -104,7 +104,8 @@ cask 'vlc'
 cask 'steam'
 cask 'gog-galaxy'
 
-cask 'razer-synapse'
+cask 'logitech-gaming-software'
+# cask 'razer-synapse'
 # cask 'scroll-reverser'
 
 # omnigraffle
