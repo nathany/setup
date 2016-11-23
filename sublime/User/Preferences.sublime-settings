@@ -42,7 +42,7 @@
 	{
 		"PATH": "/usr/local/bin/"
 	},
-	"font_face": "Menlo",
+	"font_face": "Go Mono",
 	"font_options":
 	[
 		"gray_antialias",
