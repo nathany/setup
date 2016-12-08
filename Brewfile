@@ -12,6 +12,14 @@ brew 'rcm'
 
 brew 'mas' # mac app store cli
 
+# the first cask requires password to set up Caskroom
+cask 'gog-galaxy' # requires password to install
+cask 'steam'
+
+cask 'vagrant' # requires password to install
+cask 'virtualbox'
+cask 'vmware-fusion'
+
 mas 'Slack', id: 803453959
 mas 'Moom', id: 419330170
 mas 'TrashMe', id: 443126292
@@ -103,10 +111,6 @@ cask 'diskmaker-x' # to make USB keys for macOS installation
 # cask 'softraid'
 cask 'applepi-baker'
 
-cask 'vagrant'
-cask 'virtualbox'
-cask 'vmware-fusion'
-
 cask 'flux'
 # cask 'duet'
 
@@ -126,9 +130,6 @@ brew 'ffmpeg'
 cask 'handbrake'
 # cask 'vlc'
 # cask 'kodi'
-
-cask 'steam'
-cask 'gog-galaxy'
 
 cask 'logitech-gaming-software'
 # cask 'razer-synapse'
