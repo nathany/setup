@@ -14,7 +14,6 @@ brew 'mas' # mac app store cli
 
 mas 'Slack', id: 803453959
 mas 'Moom', id: 419330170
-mas 'Caffeine', id: 411246225
 mas 'TrashMe', id: 443126292
 mas 'Acorn', id: 1019272813
 mas 'Affinity Designer', id: 824171161
@@ -33,6 +32,8 @@ mas 'Pocket', id: 568494494
 mas 'Blackmagic Disk Speed Test', id: 425264550
 mas 'Ulysses', id: 623795237
 mas 'iBooks Author', id: 490152466
+
+cask 'caffeine'
 
 brew 'openssl'
 
