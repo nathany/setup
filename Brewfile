@@ -7,14 +7,39 @@ tap 'homebrew/bundle'
 tap 'caskroom/cask'
 tap 'caskroom/versions' # for sublime-text-dev
 
-brew 'mas' # mac app store
-
 tap 'thoughtbot/formulae'
 brew 'rcm'
 
+brew 'mas' # mac app store cli
+
+mas 'Xcode', id: 497799835
+mas 'Slack', id: 803453959
+mas 'Moom', id: 419330170
+mas 'Caffeine', id: 411246225
+mas 'TrashMe', id: 443126292
+mas 'Acorn', id: 1019272813
+mas 'Affinity Designer', id: 824171161
+mas 'Pixelmator', id: 407963104
+mas 'Marked 2', id: 890031187
+mas 'NetNewsWire', id: 635060292
+mas 'MindNode', id: 992076693
+mas 'Serial', id: 877615577
+mas 'The Unarchiver', id: 425424353
+mas 'Tweetbot', id: 557168941
+mas 'Unclutter', id: 577085396
+mas 'World Clock', id: 858446756
+mas 'Day One', id: 1055511498
+mas 'Deliveries', id: 924726344
+mas 'Pocket', id: 568494494
+mas 'Blackmagic Disk Speed Test', id: 425264550
+mas 'Ulysses', id: 623795237
+mas 'iBooks Author', id: 490152466
+
+brew 'openssl'
+
 brew 'sassc'
 
-cask 'iterm2'
+# cask 'iterm2'
 brew 'jq'
 
 brew 'git'
@@ -25,12 +50,12 @@ brew 'git-lfs'
 # brew 'ruby'
 # brew 'python3'
 # brew 'lua'
-brew 'luajit'
-# brew 'node'
+# brew 'luajit'
+brew 'node'
 
 brew 'readline' # for Looper
-brew 'openssl'
 
+mas 'Kindle', id: 405399194
 brew 'epubcheck'
 cask 'kindlegen'
 
@@ -39,8 +64,8 @@ cask 'google-cloud-sdk'
 
 brew 'redis'
 cask 'postgres'
-brew 'mysql'
-cask 'sequel-pro'
+# brew 'mysql'
+# cask 'sequel-pro'
 
 cask 'google-chrome'
 cask 'firefox'
@@ -56,10 +81,10 @@ cask 'dash'
 cask 'sublime-text-dev'
 cask 'textmate'
 cask 'bbedit'
-cask 'atom'
-cask 'atom-beta'
-cask 'visual-studio-code'
-brew 'vim', args: ['with-luajit']
+# cask 'atom'
+# cask 'atom-beta'
+# cask 'visual-studio-code'
+# brew 'vim', args: ['with-luajit']
 # brew 'neovim'
 
 # cask 'karabiner'
@@ -88,7 +113,7 @@ cask 'flux'
 
 cask 'imageoptim'
 # cask 'adobe-creative-cloud'
-cask 'adobe-photoshop-lightroom'
+# cask 'adobe-photoshop-lightroom'
 cask 'screenflow'
 
 cask 'skype'
@@ -98,7 +123,7 @@ brew 'youtube-dl'
 brew 'ffmpeg'
 # cask 'blu-ray-player'
 cask 'handbrake'
-cask 'vlc'
+# cask 'vlc'
 # cask 'kodi'
 
 cask 'steam'
