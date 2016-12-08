@@ -12,7 +12,6 @@ brew 'rcm'
 
 brew 'mas' # mac app store cli
 
-mas 'Xcode', id: 497799835
 mas 'Slack', id: 803453959
 mas 'Moom', id: 419330170
 mas 'Caffeine', id: 411246225
@@ -61,6 +60,7 @@ cask 'kindlegen'
 
 brew 'awscli'
 cask 'google-cloud-sdk'
+cask 'docker-beta'
 
 brew 'redis'
 cask 'postgres'
