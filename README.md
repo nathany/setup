@@ -3,7 +3,7 @@ My personal dotfiles managed with [rcm](https://github.com/thoughtbot/rcm).
 ### Oh My Zsh
 
 ```console
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
@@ -18,7 +18,7 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 [Homebrew](http://brew.sh/) with [bundle](https://github.com/Homebrew/homebrew-bundle)
 
 ```console
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew tap Homebrew/bundle
 brew bundle
