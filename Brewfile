@@ -19,8 +19,11 @@ cask 'steam'
 cask 'vagrant' # requires password to install
 cask 'virtualbox'
 cask 'vmware-fusion'
+cask 'docker-beta'
 
 mas 'Slack', id: 803453959
+cask 'hipchat'
+
 mas 'Moom', id: 419330170
 mas 'TrashMe', id: 443126292
 mas 'Acorn', id: 1019272813
@@ -60,6 +63,7 @@ brew 'git-lfs'
 # brew 'lua'
 # brew 'luajit'
 brew 'node'
+brew 'elixir'
 
 brew 'readline' # for Looper
 
@@ -69,7 +73,6 @@ cask 'kindlegen'
 
 brew 'awscli'
 cask 'google-cloud-sdk'
-cask 'docker-beta'
 
 brew 'redis'
 cask 'postgres'
