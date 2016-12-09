@@ -58,7 +58,7 @@ brew 'hub'
 brew 'git-lfs'
 # brew 'mercurial'
 
-# brew 'ruby'
+brew 'ruby'
 # brew 'python3'
 # brew 'lua'
 # brew 'luajit'
