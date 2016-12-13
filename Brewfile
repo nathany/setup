@@ -65,6 +65,7 @@ brew 'ruby'
 brew 'node'
 brew 'elixir'
 
+brew 'graphviz' # for goviz
 brew 'readline' # for Looper
 
 mas 'Kindle', id: 405399194
