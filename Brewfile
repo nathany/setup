@@ -122,7 +122,7 @@ cask 'flux'
 
 cask 'imageoptim'
 # cask 'adobe-creative-cloud'
-# cask 'adobe-photoshop-lightroom'
+cask 'adobe-photoshop-lightroom'
 cask 'screenflow'
 
 cask 'skype'
