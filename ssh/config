@@ -1,28 +1,35 @@
 Host *
   IdentitiesOnly yes
+  AddKeysToAgent yes
 
 Host bitbucket.org
   HostName bitbucket.org
   IdentityFile ~/.ssh/bitbucket_rsa
   IdentitiesOnly yes
+  UseKeychain yes
 
 Host github.com
   Hostname github.com
   RSAAuthentication yes
   Compression yes
   IdentityFile ~/.ssh/github_rsa
+  UseKeychain yes
 
 Host heroku.com
   HostName heroku.com
   IdentityFile ~/.ssh/heroku_rsa
   IdentitiesOnly yes
+  UseKeychain yes
 
 Host git.manning.com
   HostName git.manning.com
   IdentityFile ~/.ssh/manning_rsa
   IdentitiesOnly yes
+  UseKeychain yes
 
 Host raspberrypi.local
   HostName raspberrypi.local
   IdentityFile ~/.ssh/pi_rsa
   IdentitiesOnly yes
+  UseKeychain yes
+
