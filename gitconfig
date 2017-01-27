@@ -1,6 +1,7 @@
 [user]
 	email = git@nathany.com
 	name = Nathan Youngman
+	signingkey = git@nathany.com
 
 [credential]
 	helper = osxkeychain
@@ -46,3 +47,7 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg

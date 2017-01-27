@@ -47,6 +47,10 @@ mas 'iBooks Author', id: 490152466
 cask 'caffeine'
 
 brew 'openssl'
+brew 'gpg'
+brew 'keybase'
+brew 'gpg-agent'
+brew 'pinentry-mac'
 
 brew 'sassc'
 
