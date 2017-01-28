@@ -63,7 +63,7 @@ brew 'git-lfs'
 # brew 'mercurial'
 
 brew 'ruby'
-# brew 'python3'
+brew 'python3'
 # brew 'lua'
 # brew 'luajit'
 brew 'node'
