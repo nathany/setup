@@ -77,6 +77,8 @@ brew 'epubcheck'
 cask 'kindlegen'
 
 brew 'awscli'
+brew 'kubectl'
+brew 'terraform'
 cask 'google-cloud-sdk'
 
 brew 'redis'
