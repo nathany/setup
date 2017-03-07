@@ -79,6 +79,7 @@ cask 'kindlegen'
 brew 'awscli'
 brew 'kubectl'
 brew 'terraform'
+brew 'vault'
 cask 'google-cloud-sdk'
 
 brew 'redis'
