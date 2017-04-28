@@ -32,8 +32,7 @@ export DOTFILES_DIRS=$HOME/src/github.com/nathany/dotfiles
 export EDITOR="subl -w"
 
 # cd..
-setopt auto_cd
-cdpath=($HOME/src/github.com $HOME/src/github.com/nathany $HOME/src/github.com/fsnotify $HOME/src/github.com/aai $HOME/src/github.com/RobotsAndPencils $HOME/src/go.googlesource.com $HOME/src/go.googlesource.com/go/src $HOME/src/golang.org $HOME/Dropbox/Documents/Talks/)
+export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany:$HOME/src/go.googlesource.com:$HOME/src/go.googlesource.com/go/src:$HOME/src/golang.org
 
 # eval "$(gh alias -s)"
 
