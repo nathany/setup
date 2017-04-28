@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load in ~/.oh-my-zsh/themes/
 # https://github.com/sindresorhus/pure
-ZSH_THEME="pure"
+ZSH_THEME="refined"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
