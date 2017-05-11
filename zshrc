@@ -9,7 +9,7 @@ ZSH_THEME="refined"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(brew vagrant terminalapp colored-man-pages)
+plugins=(brew kubectl vagrant terminalapp colored-man-pages)
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
