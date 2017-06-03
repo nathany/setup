@@ -101,9 +101,10 @@ cask 'dash'
 cask 'sublime-text-dev'
 cask 'textmate'
 cask 'bbedit'
+cask 'visual-studio-code'
+
 # cask 'atom'
 # cask 'atom-beta'
-# cask 'visual-studio-code'
 # brew 'vim', args: ['with-luajit']
 # brew 'neovim'
 
