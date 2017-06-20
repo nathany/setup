@@ -129,6 +129,8 @@ cask 'flux'
 # cask 'geekbench'
 
 cask 'imageoptim'
+brew 'guetzli' # jpg compression
+
 # cask 'adobe-creative-cloud'
 cask 'adobe-photoshop-lightroom'
 cask 'screenflow'
