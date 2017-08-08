@@ -22,6 +22,7 @@ alias apm="apm-beta"
 alias go14="/Users/nathany/src/go.googlesource.com/go1.4/bin/go"
 alias go17="/Users/nathany/src/go.googlesource.com/go1.7/bin/go"
 alias go18="/Users/nathany/src/go.googlesource.com/go1.8/bin/go"
+alias go19="/Users/nathany/src/go.googlesource.com/go1.9/bin/go"
 alias gotip="/Users/nathany/src/go.googlesource.com/gotip/bin/go"
 
 source $ZSH/oh-my-zsh.sh
@@ -33,7 +34,7 @@ export DOTFILES_DIRS=$HOME/src/github.com/nathany/dotfiles
 export EDITOR="subl -w"
 
 # cd..
-export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany:$HOME/src/go.googlesource.com:$HOME/src/go.googlesource.com/go/src:$HOME/src/golang.org
+export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany:$HOME/src/go.googlesource.com:$HOME/src/go.googlesource.com/go1.8/src:$HOME/src/golang.org
 
 # eval "$(gh alias -s)"
 
