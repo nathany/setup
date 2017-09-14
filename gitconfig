@@ -48,6 +48,6 @@
 	smudge = git-lfs smudge %f
 	required = true
 [commit]
-	gpgsign = true
+	gpgsign = false
 [gpg]
 	program = /usr/local/bin/gpg
