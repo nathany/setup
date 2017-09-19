@@ -12,36 +12,45 @@ brew 'rcm'
 brew 'mas' # mac app store cli
 
 # the first cask requires password to set up Caskroom
-cask 'gog-galaxy' # requires password to install
-cask 'steam'
-
 cask 'vagrant' # requires password to install
 cask 'virtualbox'
 cask 'vmware-fusion'
-cask 'docker-beta'
+cask 'docker'
 
 mas 'Slack', id: 803453959
 cask 'hipchat'
 
-mas 'Moom', id: 419330170
+mas 'Final Cut Pro', id: 424389933
+# mas 'Cave Story+', id: 456447717
+mas 'Things3', id: 904280696
 mas 'TrashMe', id: 443126292
+mas 'Blackmagic Disk Speed Test', id: 425264550
+# mas 'Ulysses', id: 623795237
+# mas 'Keynote', id: 409183694
+mas 'Moom', id: 419330170
+mas 'Navicat Essentials for PostgreSQL', id: 466725643
+mas 'World Clock Pro', id: 858446756
+# mas 'GarageBand', id: 682658836
+mas 'The Unarchiver', id: 425424353
 mas 'Acorn', id: 1019272813
-mas 'Affinity Designer', id: 824171161
 mas 'Pixelmator', id: 407963104
+mas 'iBooks Author', id: 490152466
+mas 'Unclutter', id: 577085396
+mas 'Motion', id: 434290957
+mas 'Tweetbot', id: 557168941
+# mas 'openglex5', id: 444052073
+# mas 'Xcode', id: 497799835
 mas 'Marked 2', id: 890031187
+# mas 'Pages', id: 409201541
 mas 'NetNewsWire', id: 635060292
 mas 'MindNode', id: 992076693
+# mas 'iMovie', id: 408981434
+# mas 'Numbers', id: 409203825
 mas 'Serial', id: 877615577
-mas 'The Unarchiver', id: 425424353
-mas 'Tweetbot', id: 557168941
-mas 'Unclutter', id: 577085396
-mas 'World Clock', id: 858446756
 mas 'Day One', id: 1055511498
+mas 'Affinity Designer', id: 824171161
 mas 'Deliveries', id: 924726344
 mas 'Pocket', id: 568494494
-mas 'Blackmagic Disk Speed Test', id: 425264550
-mas 'Ulysses', id: 623795237
-mas 'iBooks Author', id: 490152466
 
 cask 'caffeine'
 
@@ -84,7 +93,7 @@ cask 'google-cloud-sdk'
 brew 'redis'
 cask 'postgres'
 # brew 'mysql'
-# cask 'sequel-pro'
+cask 'sequel-pro'
 
 cask 'google-chrome'
 cask 'firefox'
@@ -94,7 +103,6 @@ cask 'firefox'
 
 cask 'alfred'
 cask '1password'
-cask 'things'
 cask 'dash'
 
 cask 'sublime-text'
@@ -123,14 +131,12 @@ cask 'diskmaker-x' # to make USB keys for macOS installation
 cask 'applepi-baker'
 
 cask 'flux'
-# cask 'duet'
 
 # cask 'geekbench'
 
 cask 'imageoptim'
 brew 'guetzli' # jpg compression
 
-# cask 'adobe-creative-cloud'
 cask 'adobe-photoshop-lightroom'
 cask 'screenflow'
 
@@ -144,11 +150,7 @@ cask 'handbrake'
 # cask 'vlc'
 # cask 'kodi'
 
-cask 'logitech-gaming-software'
-# cask 'razer-synapse'
-# cask 'scroll-reverser'
-
-# omnigraffle
+cask 'omnigraffle'
 # omnioutliner
 # omnifocus
 # macjournal
