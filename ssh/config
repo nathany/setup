@@ -10,7 +10,6 @@ Host bitbucket.org
 
 Host github.com
   Hostname github.com
-  RSAAuthentication yes
   Compression yes
   IdentityFile ~/.ssh/github_rsa
   UseKeychain yes
