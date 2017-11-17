@@ -17,7 +17,8 @@ cask 'virtualbox'
 cask 'vmware-fusion'
 cask 'docker'
 
-mas 'Slack', id: 803453959
+# mas 'Slack', id: 803453959
+cask 'slack'
 cask 'hipchat'
 
 mas 'Final Cut Pro', id: 424389933
@@ -90,8 +91,12 @@ brew 'terraform'
 brew 'vault'
 cask 'google-cloud-sdk'
 
+cask 'postman'
+cask 'ngrok'
+
 brew 'redis'
 cask 'postgres'
+cask 'postico'
 # brew 'mysql'
 cask 'sequel-pro'
 
