@@ -17,42 +17,53 @@ cask 'vagrant' # requires password to install
 cask 'virtualbox'
 cask 'vmware-fusion'
 cask 'docker'
+brew 'packer'
 
 # mas 'Slack', id: 803453959
 cask 'slack'
 cask 'hipchat'
 
-mas 'Final Cut Pro', id: 424389933
-# mas 'Cave Story+', id: 456447717
-mas 'Things3', id: 904280696
-mas 'TrashMe', id: 443126292
-mas 'Blackmagic Disk Speed Test', id: 425264550
-# mas 'Ulysses', id: 623795237
-# mas 'Keynote', id: 409183694
-mas 'Moom', id: 419330170
-mas 'Navicat Essentials for PostgreSQL', id: 466725643
-mas 'World Clock Pro', id: 858446756
-# mas 'GarageBand', id: 682658836
-mas 'The Unarchiver', id: 425424353
-mas 'Acorn', id: 1019272813
-mas 'Pixelmator', id: 407963104
-mas 'iBooks Author', id: 490152466
-mas 'Unclutter', id: 577085396
-mas 'Motion', id: 434290957
-mas 'Tweetbot', id: 557168941
-# mas 'openglex5', id: 444052073
 # mas 'Xcode', id: 497799835
-mas 'Marked 2', id: 890031187
+
 # mas 'Pages', id: 409201541
-mas 'NetNewsWire', id: 635060292
-mas 'MindNode', id: 992076693
-# mas 'iMovie', id: 408981434
+# mas 'Keynote', id: 409183694
 # mas 'Numbers', id: 409203825
-mas 'Serial', id: 877615577
-mas 'Day One', id: 1055511498
+# mas 'GarageBand', id: 682658836
+# mas 'iMovie', id: 408981434
+mas 'Final Cut Pro', id: 424389933
+mas 'Motion', id: 434290957
+
+mas 'iBooks Author', id: 490152466
+mas 'Marked 2', id: 890031187
+# mas 'Ulysses', id: 623795237
+
+mas 'Pixelmator Pro', id: 1289583905
+# mas 'Pixelmator', id: 407963104
+# mas 'Acorn', id: 1019272813
 mas 'Affinity Designer', id: 824171161
+mas 'MindNode', id: 992076693
+
+mas 'Things3', id: 904280696
+mas 'Day One', id: 1055511498
+
+mas 'Moom', id: 419330170
+mas 'Unclutter', id: 577085396
+mas 'World Clock Pro', id: 858446756
+
+mas 'Blackmagic Disk Speed Test', id: 425264550
+mas 'The Unarchiver', id: 425424353
+mas 'TrashMe', id: 443126292
+
+mas 'Serial', id: 877615577
+mas 'Navicat Essentials for PostgreSQL', id: 466725643
+
+mas 'Tweetbot', id: 557168941
+mas 'NetNewsWire', id: 635060292
 mas 'Deliveries', id: 924726344
 mas 'Pocket', id: 568494494
+
+# mas 'Cave Story+', id: 456447717
+# mas 'openglex5', id: 444052073
 
 cask 'caffeine'
 
@@ -88,6 +99,7 @@ cask 'kindlegen'
 
 brew 'awscli'
 brew 'kubectl'
+brew 'kubernetes-helm'
 brew 'terraform'
 brew 'vault'
 cask 'google-cloud-sdk'
