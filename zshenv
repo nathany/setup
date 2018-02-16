@@ -2,7 +2,7 @@
 
 # Go
 export GOPATH=$HOME
-export PATH=$PATH:$GOPATH/src/go.googlesource.com/go1.8/bin:$GOPATH/bin
+export PATH=$PATH:$GOPATH/src/go.googlesource.com/go1.10/bin:$GOPATH/bin
 export GOROOT_BOOTSTRAP=$GOPATH/src/go.googlesource.com/go1.4
 
 # Rust (rustup, cargo, rustc, rustdoc)
