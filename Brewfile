@@ -88,6 +88,7 @@ brew 'python'
 # brew 'lua'
 # brew 'luajit'
 brew 'node'
+brew 'yarn'
 brew 'elixir'
 
 brew 'graphviz' # for goviz
