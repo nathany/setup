@@ -10,7 +10,9 @@
 		"BeautifyRust",
 		"Boron Color Scheme",
 		"Dockerfile Syntax Highlighting",
+		"EditorConfig",
 		"Elixir",
+		"Emmet",
 		"GitGutter",
 		"Golang Build",
 		"GoSublime",
@@ -26,6 +28,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-gometalinter",
+		"SublimeLinter-eslint",
 		"Terraform",
 		"Theme - Cobalt2",
 		"Theme - Flatland",
@@ -33,6 +36,7 @@
 		"TOML",
 		"Tomorrow Color Schemes",
 		"TypeScript",
-		"VimL"
+		"VimL",
+		"Vue Syntax Highlight"
 	]
 }
