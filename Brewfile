@@ -97,6 +97,7 @@ brew 'readline' # for Looper
 mas 'Kindle', id: 405399194
 brew 'epubcheck'
 cask 'kindlegen'
+cask 'kindle-previewer'
 
 brew 'awscli'
 brew 'kubectl'
