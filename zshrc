@@ -35,7 +35,7 @@ export DOTFILES_DIRS=$HOME/src/github.com/nathany/dotfiles
 export EDITOR="subl -w"
 
 # cd..
-export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany:$HOME/src/go.googlesource.com:$HOME/src/go.googlesource.com/go1.8/src:$HOME/src/golang.org
+export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany:$HOME/src/go.googlesource.com:$HOME/src/go.googlesource.com/go1.10/src:$HOME/src/golang.org
 
 # eval "$(gh alias -s)"
 
