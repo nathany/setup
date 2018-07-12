@@ -10,7 +10,7 @@ tap 'caskroom/versions' # for sublime-text-dev
 tap 'thoughtbot/formulae'
 brew 'rcm'
 
-brew 'mas' # mac app store cli
+brew 'mas' # Mac App Store CLI
 
 # the first cask requires password to set up Caskroom
 cask 'vagrant' # requires password to install
@@ -19,9 +19,9 @@ cask 'vmware-fusion'
 cask 'docker'
 brew 'packer'
 
-# mas 'Slack', id: 803453959
-cask 'slack'
-cask 'hipchat'
+mas 'Slack', id: 803453959
+# cask 'slack'
+# cask 'hipchat'
 
 # mas 'Xcode', id: 497799835
 
@@ -55,9 +55,9 @@ mas 'The Unarchiver', id: 425424353
 mas 'TrashMe', id: 443126292
 
 mas 'Serial', id: 877615577
-mas 'Navicat Essentials for PostgreSQL', id: 466725643
+# mas 'Navicat Essentials for PostgreSQL', id: 466725643
 
-mas 'Tweetbot', id: 557168941
+mas 'Tweetbot', id: 1384080005
 mas 'NetNewsWire', id: 635060292
 mas 'Deliveries', id: 924726344
 mas 'Pocket', id: 568494494
@@ -73,6 +73,7 @@ brew 'keybase'
 brew 'gpg-agent'
 brew 'pinentry-mac'
 
+brew 'hugo'
 brew 'sassc'
 
 # cask 'iterm2'
@@ -83,8 +84,8 @@ brew 'hub'
 brew 'git-lfs'
 # brew 'mercurial'
 
-brew 'ruby'
-brew 'python'
+# brew 'ruby'
+# brew 'python'
 # brew 'lua'
 # brew 'luajit'
 brew 'node'
@@ -114,7 +115,7 @@ brew 'redis'
 cask 'postgres'
 cask 'postico'
 # brew 'mysql'
-cask 'sequel-pro'
+# cask 'sequel-pro'
 
 cask 'google-chrome'
 cask 'firefox'
@@ -151,7 +152,7 @@ cask 'diskmaker-x' # to make USB keys for macOS installation
 # cask 'softraid'
 cask 'applepi-baker'
 
-cask 'flux'
+# cask 'flux'
 
 # cask 'geekbench'
 
