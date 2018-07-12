@@ -118,7 +118,7 @@ cask 'postico'
 # cask 'sequel-pro'
 
 cask 'google-chrome'
-cask 'firefox'
+cask 'firefox-developer-edition'
 # cask 'opera'
 # cask 'opera-beta'
 # cask 'transmission'
