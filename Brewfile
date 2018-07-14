@@ -67,11 +67,11 @@ mas 'Pocket', id: 568494494
 
 cask 'caffeine'
 
-brew 'openssl'
-brew 'gpg'
 brew 'keybase'
-brew 'gpg-agent'
-brew 'pinentry-mac'
+brew 'openssl'
+# brew 'gpg'
+# brew 'gpg-agent'
+# brew 'pinentry-mac'
 
 brew 'hugo'
 brew 'sassc'
@@ -128,10 +128,9 @@ cask '1password'
 cask 'dash'
 
 cask 'sublime-text-dev'
-cask 'textmate'
-cask 'bbedit'
-cask 'visual-studio-code'
-
+# cask 'textmate'
+# cask 'bbedit'
+# cask 'visual-studio-code'
 # cask 'atom'
 # cask 'atom-beta'
 # brew 'vim', args: ['with-luajit']
