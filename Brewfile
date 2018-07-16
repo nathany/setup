@@ -74,7 +74,6 @@ brew 'openssl'
 # brew 'pinentry-mac'
 
 brew 'hugo'
-brew 'sassc'
 
 # cask 'iterm2'
 brew 'jq'
