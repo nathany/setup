@@ -22,6 +22,8 @@ brew 'packer'
 mas 'Slack', id: 803453959
 # cask 'slack'
 # cask 'hipchat'
+# cask 'stride'
+# cask 'discord'
 
 # mas 'Xcode', id: 497799835
 
@@ -157,10 +159,13 @@ cask 'applepi-baker'
 cask 'imageoptim'
 brew 'guetzli' # jpg compression
 
+cask 'adobe-acrobat-reader'
+
 cask 'adobe-photoshop-lightroom'
 cask 'screenflow'
 
 cask 'skype'
+cask 'zoomus'
 
 # brew 'gource'
 brew 'youtube-dl'
@@ -171,9 +176,11 @@ cask 'handbrake'
 # cask 'kodi'
 
 cask 'omnigraffle'
-# omnioutliner
-# omnifocus
+# cask 'omnioutliner'
+# cask 'omnifocus'
 # macjournal
 # mellel
 
 # cask 'xquartz'
+
+cask 'citrix-receiver'
