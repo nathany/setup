@@ -69,8 +69,8 @@ mas 'Pocket', id: 568494494
 
 cask 'caffeine'
 
-brew 'keybase'
-brew 'openssl'
+cask 'keybase'
+# brew 'openssl'
 # brew 'gpg'
 # brew 'gpg-agent'
 # brew 'pinentry-mac'
@@ -107,7 +107,7 @@ brew 'kubernetes-helm'
 brew 'kops'
 brew 'terraform'
 brew 'vault'
-cask 'google-cloud-sdk'
+# cask 'google-cloud-sdk'
 
 cask 'postman'
 cask 'ngrok'
@@ -120,6 +120,7 @@ cask 'postico'
 
 cask 'google-chrome'
 cask 'firefox-developer-edition'
+cask 'safari-technology-preview'
 # cask 'opera'
 # cask 'opera-beta'
 # cask 'transmission'
@@ -159,7 +160,7 @@ cask 'applepi-baker'
 cask 'imageoptim'
 brew 'guetzli' # jpg compression
 
-cask 'adobe-acrobat-reader'
+# cask 'adobe-acrobat-reader'
 
 cask 'adobe-photoshop-lightroom'
 cask 'screenflow'
