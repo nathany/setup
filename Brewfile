@@ -160,7 +160,7 @@ cask 'applepi-baker'
 cask 'imageoptim'
 brew 'guetzli' # jpg compression
 
-# cask 'adobe-acrobat-reader'
+cask 'adobe-acrobat-reader'
 
 cask 'adobe-photoshop-lightroom'
 cask 'screenflow'
