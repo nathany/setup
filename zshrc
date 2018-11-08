@@ -20,8 +20,6 @@ alias atom="atom-beta"
 alias apm="apm-beta"
 
 alias go14="/Users/nathany/src/go.googlesource.com/go1.4/bin/go"
-alias go17="/Users/nathany/src/go.googlesource.com/go1.7/bin/go"
-alias go18="/Users/nathany/src/go.googlesource.com/go1.8/bin/go"
 alias go19="/Users/nathany/src/go.googlesource.com/go1.9/bin/go"
 alias go10="/Users/nathany/src/go.googlesource.com/go1.10/bin/go"
 alias go11="/Users/nathany/src/go.googlesource.com/go1.11/bin/go"
