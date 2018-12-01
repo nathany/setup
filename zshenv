@@ -8,5 +8,8 @@ export GOROOT_BOOTSTRAP=$GOPATH/src/go.googlesource.com/go1.4
 # Rust (rustup, cargo, rustc, rustdoc)
 export PATH=$PATH:$HOME/.cargo/bin
 
+# Ruby
+export PATH=$PATH:/usr/local/lib/ruby/gems/2.5.0/bin
+
 # Postgres.app
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin":$PATH
