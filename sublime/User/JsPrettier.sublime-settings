@@ -1,9 +1,9 @@
 {
-	"auto_format_on_save": false,
+	"auto_format_on_save": true,
 	"auto_format_on_save_requires_prettier_config": true,
 	"prettier_options": {
 		"trailingComma": "es5",
 		"singleQuote": false,
-		"arrowParens": "always",
+		"arrowParens": "avoid",
 	}
 }
