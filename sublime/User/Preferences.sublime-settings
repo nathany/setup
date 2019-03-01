@@ -53,6 +53,7 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night (SL).tmTheme",
 	"create_window_at_startup": false,
+	"dictionary": "Packages/Language - English/en_GB.dic",
 	"ensure_newline_at_eof_on_save": true,
 	"env":
 	{
@@ -108,6 +109,7 @@
 	"match_selection": false,
 	"rulers":
 	[
+		50,
 		79,
 		94
 	],
