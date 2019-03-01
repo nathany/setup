@@ -153,7 +153,7 @@ cask 'diskmaker-x' # to make USB keys for macOS installation
 # cask 'softraid'
 cask 'applepi-baker'
 
-# cask 'flux'
+cask 'flux'
 
 # cask 'geekbench'
 
