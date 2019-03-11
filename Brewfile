@@ -17,7 +17,7 @@ cask 'vagrant' # requires password to install
 cask 'virtualbox'
 cask 'vmware-fusion'
 cask 'docker'
-brew 'packer'
+# brew 'packer'
 
 mas 'Slack', id: 803453959
 # cask 'slack'
@@ -102,11 +102,11 @@ cask 'kindlegen'
 cask 'kindle-previewer'
 
 brew 'awscli'
-brew 'kubectl'
-brew 'kubernetes-helm'
-brew 'kops'
-brew 'terraform'
-brew 'vault'
+# brew 'kubectl'
+# brew 'kubernetes-helm'
+# brew 'kops'
+# brew 'terraform'
+# brew 'vault'
 # cask 'google-cloud-sdk'
 
 cask 'postman'
