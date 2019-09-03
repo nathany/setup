@@ -2,9 +2,10 @@
 
 # Go
 export GOPATH=$HOME
-export PATH=$PATH:$GOPATH/src/go.googlesource.com/go1.12/bin:$GOPATH/bin
+export PATH=$PATH:$GOPATH/src/go.googlesource.com/go1.13/bin:$GOPATH/bin
 export GOROOT_BOOTSTRAP=$GOPATH/src/go.googlesource.com/go1.4
 export GO111MODULE=on
+export GO15VENDOREXPERIMENT=0
 
 # Rust (rustup, cargo, rustc, rustdoc)
 export PATH=$PATH:$HOME/.cargo/bin
