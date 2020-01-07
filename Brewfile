@@ -19,7 +19,7 @@ brew 'mas' # Mac App Store CLI
 # cask 'vagrant' # requires password to install
 # cask 'virtualbox'
 # cask 'vmware-fusion'
-# cask 'docker'
+cask 'docker'
 # brew 'packer'
 
 mas 'Slack', id: 803453959
@@ -49,7 +49,7 @@ mas 'Affinity Designer', id: 824171161
 mas 'MindNode', id: 1289197285
 mas 'Paprika Recipe Manager 3', id: 1303222628
 
-mas 'Things3', id: 904280696
+mas 'Things', id: 904280696
 mas 'Day One', id: 1055511498
 mas 'Cardhop', id: 1290358394
 mas 'Be Focused Pro', id: 961632517
@@ -57,7 +57,7 @@ mas 'Moom', id: 419330170
 mas 'Unclutter', id: 577085396
 mas 'World Clock Pro', id: 858446756
 
-mas 'Blackmagic Disk Speed Test', id: 425264550
+mas 'Disk Speed Test', id: 425264550
 mas 'The Unarchiver', id: 425424353
 # mas 'TrashMe', id: 443126292
 cask 'appcleaner'
@@ -73,7 +73,11 @@ mas 'Pocket', id: 568494494
 # mas 'ToothFairy', id: 961632517
 # mas 'OpenGL Extensions Viewer', id: 444052073
 
-cask 'caffeine'
+mas 'Amphetamine', id: 937984704
+#cask 'caffeine'
+
+mas 'HiddenMe', id: 467040476
+cask 'bartender'
 
 cask 'keybase'
 # brew 'openssl'
@@ -125,7 +129,7 @@ cask 'postico'
 # mas 'Navicat Essentials for PostgreSQL', id: 466725643
 
 cask 'google-chrome'
-cask 'google-chrome-canary'
+# cask 'google-chrome-canary'
 cask 'firefox-developer-edition'
 cask 'safari-technology-preview'
 # cask 'opera'
@@ -139,9 +143,7 @@ cask 'dash'
 cask 'sublime-text-dev'
 # cask 'textmate'
 # cask 'bbedit'
-# cask 'visual-studio-code'
-# cask 'atom'
-# cask 'atom-beta'
+cask 'visual-studio-code'
 # brew 'vim', args: ['with-luajit']
 # brew 'neovim'
 
@@ -159,14 +161,14 @@ cask 'daisydisk'
 cask 'diskmaker-x' # to make USB keys for macOS installation
 # cask 'softraid'
 
-cask 'flux'
+# cask 'flux'
 
 # cask 'geekbench'
 
 cask 'imageoptim'
 brew 'guetzli' # jpg compression
 
-cask 'adobe-acrobat-reader'
+# cask 'adobe-acrobat-reader'
 cask 'adobe-creative-cloud'
 cask 'screenflow'
 
@@ -177,7 +179,7 @@ cask 'skype'
 brew 'youtube-dl'
 brew 'ffmpeg'
 # cask 'blu-ray-player'
-cask 'handbrake'
+# cask 'handbrake'
 # cask 'vlc'
 # cask 'kodi'
 
@@ -191,4 +193,4 @@ cask 'omnigraffle'
 
 # brew 'elixir'
 # cask 'citrix-receiver'
-# cask 'zoomus'
+cask 'zoomus'
