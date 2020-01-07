@@ -9,15 +9,12 @@ ZSH_THEME="refined"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(brew kubectl vagrant terminalapp colored-man-pages)
+plugins=(brew kubectl vagrant colored-man-pages git asdf)
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias pmp="osascript ~/Development/styleterm.scpt 'Red Sands'; ssh deploy@primus_production; osascript ~/Development/styleterm.scpt 'Pro'"
-
-alias atom="atom-beta"
-alias apm="apm-beta"
 
 alias go14="/Users/nathany/src/go.googlesource.com/go1.4/bin/go"
 alias go19="/Users/nathany/src/go.googlesource.com/go1.9/bin/go"
