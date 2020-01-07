@@ -4,8 +4,8 @@
 # brew bundle
 tap 'homebrew/bundle'
 
-tap 'caskroom/cask'
-tap 'caskroom/versions' # for sublime-text-dev
+tap 'homebrew/cask-cask'
+tap 'homebrew/cask-versions' # for sublime-text-dev
 
 tap 'thoughtbot/formulae'
 brew 'rcm'
