@@ -2,8 +2,8 @@
 
 # Go
 export GOPATH=$HOME
-export PATH=$PATH:$GOPATH/src/go.googlesource.com/go1.13/bin:$GOPATH/bin
-export GOROOT_BOOTSTRAP=$GOPATH/src/go.googlesource.com/go1.4
+export PATH=$PATH:$HOME/src/go.googlesource.com/go1.14/bin:$GOPATH/bin
+export GOROOT_BOOTSTRAP=$HOME/src/go.googlesource.com/go1.4
 export GO111MODULE=auto
 export GO15VENDOREXPERIMENT=0
 
