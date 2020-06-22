@@ -122,6 +122,7 @@ cask 'ngrok'
 brew 'redis'
 cask 'postgres'
 cask 'postico'
+cask 'tableplus'
 # brew 'mysql'
 # cask 'sequel-pro'
 # mas 'Navicat Essentials for PostgreSQL', id: 466725643
