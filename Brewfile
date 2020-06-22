@@ -65,6 +65,8 @@ mas 'Tweetbot', id: 1384080005
 mas 'Deliveries', id: 924726344
 mas 'Pocket', id: 568494494
 
+mas 'GoodNotes', id: 1444383602
+
 # mas 'NetNewsWire', id: 635060292
 # mas 'ToothFairy', id: 961632517
 # mas 'OpenGL Extensions Viewer', id: 444052073
@@ -131,6 +133,7 @@ cask 'safari-technology-preview'
 # cask 'opera'
 # cask 'opera-beta'
 # cask 'transmission'
+mas 'Magic Lasso', id: 1198047227
 
 cask 'alfred'
 cask '1password'
@@ -165,7 +168,8 @@ cask 'imageoptim'
 brew 'guetzli' # jpg compression
 
 # cask 'adobe-acrobat-reader'
-cask 'adobe-creative-cloud'
+# cask 'adobe-creative-cloud'
+mas 'Adobe Lightroom', id: 1451544217
 cask 'screenflow'
 
 cask 'skype'
