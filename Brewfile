@@ -9,7 +9,9 @@ brew 'rcm'
 brew 'mas' # Mac App Store CLI
 # cask 'macupdater'
 
-# mas 'Xcode', id: 497799835
+mas 'Xcode', id: 497799835
+mas 'Developer', id: 640199958
+mas 'Swift Playgrounds', id: 1496833156
 
 # the first cask requires password to set up Caskroom
 # cask 'vagrant' # requires password to install
