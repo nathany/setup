@@ -1,6 +1,6 @@
 # brew tap Homebrew/bundle
 # brew bundle
-tap 'homebrew/bundle'
+# tap 'homebrew/bundle'
 tap 'homebrew/cask-versions' # for sublime-text-dev
 
 tap 'thoughtbot/formulae'
