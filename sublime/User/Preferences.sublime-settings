@@ -46,10 +46,31 @@
 		"goroutine",
 		"fallback",
 		"refactor",
-		"barcode"
+		"barcode",
+		"timeout",
+		"offline",
+		"timeline",
+		"programmatically"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*/vendor/*"
+	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night (SL).tmTheme",
 	"create_window_at_startup": false,
@@ -80,6 +101,7 @@
 		"Println",
 		"Youngman",
 		"btn",
+		"captcha",
 		"const",
 		"crypto",
 		"fmt",
@@ -96,9 +118,11 @@
 		"mux",
 		"omitempty",
 		"org",
+		"param",
 		"png",
 		"sourcedir",
 		"struct",
+		"uuid",
 		"yaml"
 	],
 	"indent_guide_options":
