@@ -69,7 +69,7 @@ mas 'Pocket', id: 568494494
 
 mas 'GoodNotes', id: 1444383602
 
-# mas 'NetNewsWire', id: 635060292
+# cask 'netnewswire'
 # mas 'ToothFairy', id: 961632517
 # mas 'OpenGL Extensions Viewer', id: 444052073
 
