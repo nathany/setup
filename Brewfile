@@ -34,8 +34,8 @@ mas 'Slack', id: 803453959
 mas 'Final Cut Pro', id: 424389933
 mas 'Motion', id: 434290957
 
-mas 'iBooks Author', id: 490152466
 mas 'Marked 2', id: 890031187
+# mas 'iBooks Author', id: 490152466
 # mas 'Ulysses', id: 623795237
 
 mas 'Pixelmator Pro', id: 1289583905
