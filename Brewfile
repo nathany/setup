@@ -194,7 +194,7 @@ cask 'omnigraffle'
 
 # cask 'xquartz'
 
-# brew 'elixir'
+brew 'elixir'
 # cask 'citrix-receiver'
 cask 'zoomus'
 cask 'microsoft-teams'
