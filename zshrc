@@ -9,7 +9,7 @@ ZSH_THEME="refined"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(brew kubectl vagrant colored-man-pages asdf)
+plugins=(brew vagrant colored-man-pages asdf)
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -24,6 +24,7 @@ alias go12="/Users/nathany/src/go.googlesource.com/go1.12/bin/go"
 alias go13="/Users/nathany/src/go.googlesource.com/go1.13/bin/go"
 alias go14="/Users/nathany/src/go.googlesource.com/go1.14/bin/go"
 alias go15="/Users/nathany/src/go.googlesource.com/go1.15/bin/go"
+alias go16="/Users/nathany/src/go.googlesource.com/go1.16/bin/go"
 alias gotip="/Users/nathany/src/go.googlesource.com/gotip/bin/go"
 
 source $ZSH/oh-my-zsh.sh
@@ -35,7 +36,7 @@ export DOTFILES_DIRS=$HOME/src/github.com/nathany/dotfiles
 export EDITOR="subl -w"
 
 # cd..
-export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany:$HOME/src/go.googlesource.com:$HOME/src/go.googlesource.com/go1.15/src:$HOME/src/golang.org
+export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany:$HOME/src/go.googlesource.com:$HOME/src/go.googlesource.com/go1.16/src:$HOME/src/golang.org
 
 # eval "$(gh alias -s)"
 

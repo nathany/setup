@@ -2,7 +2,7 @@
 
 # Go
 export GOPATH=$HOME
-export PATH=$PATH:$HOME/src/go.googlesource.com/go1.15/bin:$GOPATH/bin
+export PATH=$PATH:$HOME/src/go.googlesource.com/go1.16/bin:$GOPATH/bin
 export GOROOT_BOOTSTRAP=$HOME/src/go.googlesource.com/go1.4
 export GO111MODULE=auto
 export GO15VENDOREXPERIMENT=0
