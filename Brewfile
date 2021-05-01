@@ -122,9 +122,6 @@ brew 'node'
 # cask 'kindle-previewer'
 
 # brew 'openssl'
-# brew 'gpg'
-# brew 'gpg-agent'
-# brew 'pinentry-mac'
 
 # cask 'iterm2'
 # brew 'jq'
