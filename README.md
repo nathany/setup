@@ -1,4 +1,8 @@
+# dotfiles
+
 My personal dotfiles managed with [rcm](https://github.com/thoughtbot/rcm).
+
+## Installation
 
 ### Oh My Zsh
 
@@ -41,8 +45,6 @@ rm -r User
 ln -s ~/src/github.com/nathany/dotfiles/sublime/User/
 ```
 
-Install [gometalinter](https://github.com/alecthomas/gometalinter) and run `gometalinter --install --update`.
-
 ### SSH Keys
 
 New SSH keys need to be created ([GitHub](https://help.github.com/articles/generating-ssh-keys/)).
@@ -54,7 +56,7 @@ ssh-keygen -t rsa -C "git@nathany.com"
 Enter file in which to save the key: github_rsa
 ```
 
-### Go
+## Go
 
 ### hidden pkg
 

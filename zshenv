@@ -9,6 +9,7 @@ export GO15VENDOREXPERIMENT=0
 
 # Rust (rustup, cargo, rustc, rustdoc)
 export PATH=$PATH:$HOME/.cargo/bin
+source "$HOME/.cargo/env"
 
 # Ruby
 export PATH=$PATH:/usr/local/lib/ruby/gems/2.5.0/bin
