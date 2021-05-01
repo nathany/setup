@@ -92,6 +92,7 @@ cask 'sublime-text'
 cask 'dash'
 
 brew 'git'
+# brew 'git-lfs'
 brew 'hub'
 cask 'tower'
 cask 'kaleidoscope'
@@ -126,9 +127,6 @@ brew 'node'
 # cask 'iterm2'
 # brew 'jq'
 # brew 'openapi-generator'
-
-# brew 'git-lfs'
-# brew 'mercurial'
 
 # brew 'ruby'
 # brew 'python'
