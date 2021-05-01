@@ -88,6 +88,7 @@ mas 'Developer', id: 640199958
 mas 'Swift Playgrounds', id: 1496833156
 
 cask 'visual-studio-code'
+cask 'sublime-text'
 cask 'dash'
 
 brew 'git'
