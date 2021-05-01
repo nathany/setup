@@ -50,7 +50,9 @@
 		"timeout",
 		"offline",
 		"timeline",
-		"programmatically"
+		"programmatically",
+		"movie",
+		"Wealthsimple"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
@@ -92,6 +94,7 @@
 	"ignored_packages":
 	[
 		"Markdown",
+		"Rust",
 		"TCL",
 		"Vintage"
 	],

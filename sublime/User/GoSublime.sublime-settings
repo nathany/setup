@@ -1,7 +1,8 @@
 {
 	"env": {
-		"PATH": "$PATH:$HOME/src/go.googlesource.com/go/bin:$HOME/bin",
+		"PATH": "$PATH:$HOME/src/go.googlesource.com/go1.12/bin:$HOME/bin",
 		"GOPATH": "$HOME",
+		"GOROOT": "$HOME/src/go.googlesource.com/go1.12/bin"
 	},
 	"fmt_tab_width": 4,
 	"fmt_cmd": ["goimports"],
