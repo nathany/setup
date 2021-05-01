@@ -51,9 +51,9 @@ New SSH keys need to be created ([GitHub](https://help.github.com/articles/gener
 
 ```console
 cd ~/.ssh
-ssh-keygen -t rsa -C "git@nathany.com"
+ssh-keygen -t ed25519 -C "git@nathany.com"
 
-Enter file in which to save the key: github_rsa
+Enter file in which to save the key: github_ed25519
 ```
 
 ## Go

@@ -99,7 +99,6 @@ cask 'kaleidoscope'
 
 brew 'go'
 brew 'hugo'
-# brew 'deno'
 
 cask 'postman'
 cask 'ngrok'
@@ -109,13 +108,8 @@ cask 'postico'
 
 cask 'imageoptim'
 
-# Work
-cask 'microsoft-teams'
-cask 'tableplus'
-cask 'zoom'
-
-brew 'elixir'
-brew 'node'
+# brew 'deno'
+# brew 'node'
 # brew 'yarn'
 
 # brew 'epubcheck'

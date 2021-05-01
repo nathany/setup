@@ -33,16 +33,13 @@ unsetopt correct_all
 # RCM
 export DOTFILES_DIRS=$HOME/src/github.com/nathany/dotfiles
 
-export EDITOR="subl -w"
+export EDITOR="code -w"
 
 # cd..
 export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany:$HOME/src/go.googlesource.com:$HOME/src/go.googlesource.com/go1.16/src:$HOME/src/golang.org
 
 # eval "$(gh alias -s)"
 
-# Set a DOCKER_HOST and related environment variables
-# docker-machine start dev
-# eval "$(docker-machine env dev)"
 
 # added by travis gem
 # [ -f /Users/nathany/.travis/travis.sh ] && source /Users/nathany/.travis/travis.sh
