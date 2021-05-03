@@ -8,6 +8,12 @@ Host bitbucket.org
   IdentitiesOnly yes
   UseKeychain yes
 
+Host aai.github.com
+  Hostname github.com
+  Compression yes
+  IdentityFile ~/.ssh/aai_ed25519
+  UseKeychain yes
+
 Host github.com
   Hostname github.com
   Compression yes
