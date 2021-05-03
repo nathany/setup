@@ -76,8 +76,8 @@ mas 'Kindle', id: 405399194
 cask 'netnewswire'
 
 # Web browsers
-cask 'google-chrome'
-# cask 'google-chrome-canary'
+cask 'microsoft-edge'
+# cask 'google-chrome'
 cask 'firefox-developer-edition'
 cask 'safari-technology-preview'
 mas 'Magic Lasso', id: 1198047227
