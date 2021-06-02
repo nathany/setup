@@ -61,7 +61,7 @@ cask 'bartender'
 
 cask 'arq'
 cask 'appcleaner'
-cask 'dropbox'
+# cask 'dropbox'
 cask 'daisydisk'
 cask 'superduper'
 
@@ -75,13 +75,15 @@ mas 'Kindle', id: 405399194
 
 cask 'netnewswire'
 
+mas 'Teleprompter', id: 1533078079
+
 # Web browsers
 cask 'firefox-developer-edition'
 cask 'safari-technology-preview'
-cask 'microsoft-edge'
+# cask 'microsoft-edge'
 # cask 'google-chrome'
 
-mas 'Magic Lasso', id: 1198047227
+# mas 'Magic Lasso', id: 1198047227
 
 # Development
 mas 'Xcode', id: 497799835
