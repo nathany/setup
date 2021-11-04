@@ -22,12 +22,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 [Homebrew](http://brew.sh/) with [bundle](https://github.com/Homebrew/homebrew-bundle)
 
 ```console
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew bundle -v
 ```
 
 ### RCM
+
+
+Dotfile management with [RCM](https://thoughtbot.github.io/rcm/)
 
 ```console
 rcup -v -d ~/src/github.com/nathany/dotfiles -x README.md -x LICENSE -x Brewfile -x sublime
