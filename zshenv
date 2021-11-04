@@ -20,3 +20,5 @@ export PATH=$PATH:/usr/local/lib/ruby/gems/2.5.0/bin
 
 # Postgres.app
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin":$PATH
+
+export ERL_AFLAGS="-kernel shell_history enabled"
