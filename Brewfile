@@ -89,6 +89,7 @@ cask 'safari-technology-preview'
 mas 'Xcode', id: 497799835
 mas 'Developer', id: 640199958
 mas 'Swift Playgrounds', id: 1496833156
+# 'TestFlight'
 
 cask 'visual-studio-code'
 cask 'sublime-text'
@@ -106,7 +107,7 @@ brew 'hugo'
 cask 'postman'
 cask 'ngrok'
 
-cask 'postgres'
+cask 'postgres-unofficial'
 cask 'postico'
 
 cask 'imageoptim'
