@@ -9,15 +9,13 @@ brew 'rcm'
 brew 'mas' # Mac App Store CLI
 
 # TODO: use whalebrew instead of installing deps directly (ffmpeg, etc)
-cask 'docker'
+# cask 'docker'
+
+mas 'Disk Speed Test', id: 425264550
 
 # Productivity
 mas 'Things', id: 904280696
-mas 'Be Focused Pro', id: 961632517
-
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
+# mas 'Be Focused Pro', id: 961632517
 
 # Photo and video
 mas 'Adobe Lightroom', id: 1451544217
@@ -27,16 +25,16 @@ mas 'Motion', id: 434290957
 cask 'screenflow'
 
 # Communication
+mas 'Cardhop', id: 1290358394
 mas 'Slack', id: 803453959
 mas 'Tweetbot', id: 1384080005
-mas 'Cardhop', id: 1290358394
-cask 'keybase'
+# cask 'keybase'
 
 # Design
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Affinity Photo', id: 824183456
 mas 'Affinity Designer', id: 824171161
-# Affinity Publisher
+cask 'affinity-publisher'
 mas 'MindNode', id: 1289197285
 
 # Writing
@@ -47,23 +45,24 @@ mas 'GoodNotes', id: 1444383602
 cask 'macjournal'
 
 # Utilities
-mas 'Amphetamine', id: 937984704
 mas 'Deliveries', id: 290986013
-mas 'GLView', id: 444052073
-mas 'HiddenMe', id: 467040476
 mas 'Moom', id: 419330170
 mas 'Unclutter', id: 577085396
 mas 'World Clock Pro', id: 858446756
+# mas 'Amphetamine', id: 937984704
+# mas 'HiddenMe', id: 467040476
+# mas 'GLView', id: 444052073
 
 cask '1password'
-cask 'alfred'
 cask 'bartender'
+# cask 'alfred'
 
 cask 'arq'
-cask 'appcleaner'
-# cask 'dropbox'
 cask 'daisydisk'
-cask 'superduper'
+cask 'appcleaner'
+
+# Homebrew doesn't have Universal binary for Apple Silicon
+# cask 'superduper'
 
 mas 'Serial', id: 877615577
 # cask 'applepi-baker'
@@ -71,15 +70,16 @@ mas 'Serial', id: 877615577
 # Reading
 mas 'Pocket', id: 568494494
 mas 'Paprika Recipe Manager 3', id: 1303222628
-mas 'Kindle', id: 405399194
 
-cask 'netnewswire'
+# requires Rosetta
+# mas 'Kindle', id: 405399194
+# cask 'netnewswire'
 
 mas 'Teleprompter', id: 1533078079
 
 # Web browsers
 cask 'firefox-developer-edition'
-cask 'safari-technology-preview'
+# cask 'safari-technology-preview'
 # cask 'microsoft-edge'
 # cask 'google-chrome'
 
@@ -91,26 +91,32 @@ mas 'Developer', id: 640199958
 mas 'Swift Playgrounds', id: 1496833156
 # 'TestFlight'
 
-cask 'visual-studio-code'
 cask 'sublime-text'
+cask 'visual-studio-code'
 cask 'dash'
 
 brew 'git'
 # brew 'git-lfs'
-brew 'hub'
-cask 'tower'
+brew 'gh'
+# brew 'hub'
+cask 'sublime-merge'
 cask 'kaleidoscope'
+# cask 'tower'
 
 brew 'go'
 brew 'hugo'
+# brew 'jq'
 
-cask 'postman'
+# cask 'postman'
 cask 'ngrok'
 
 cask 'postgres-unofficial'
 cask 'postico'
 
 cask 'imageoptim'
+
+# cask 'blender'
+# cask 'blender-benchmark'
 
 # brew 'deno'
 # brew 'node'
@@ -179,7 +185,3 @@ cask 'imageoptim'
 
 # cask 'xquartz'
 
-# cask 'citrix-receiver'
-
-# mas 'GarageBand', id: 682658836
-# mas 'iMovie', id: 408981434
