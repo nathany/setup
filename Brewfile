@@ -1,9 +1,6 @@
-# brew tap Homebrew/bundle
-# brew bundle
-# tap 'homebrew/bundle'
-# tap 'homebrew/cask-versions' # for sublime-text-dev
+# for firefox-developer-edition, safari-technology-preview, sublime-text-dev, sublime-merge-dev
+tap 'homebrew/cask-versions' 
 
-tap 'thoughtbot/formulae'
 brew 'rcm'
 
 brew 'mas' # Mac App Store CLI
@@ -11,16 +8,23 @@ brew 'mas' # Mac App Store CLI
 # TODO: use whalebrew instead of installing deps directly (ffmpeg, etc)
 # cask 'docker'
 
-mas 'Disk Speed Test', id: 425264550
+# mas 'Disk Speed Test', id: 425264550
+# geekbench, cinebench, 3DMark Wild Life Extreme
 
 # Productivity
 mas 'Things', id: 904280696
 # mas 'Be Focused Pro', id: 961632517
 
+mas 'Keynote', id: 409183694
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+
 # Photo and video
 mas 'Adobe Lightroom', id: 1451544217
 mas 'Final Cut Pro', id: 424389933
 mas 'Motion', id: 434290957
+mas 'iMovie', id: 408981434
+mas 'GarageBand', id: 682658836
 
 cask 'screenflow'
 
@@ -41,6 +45,7 @@ mas 'MindNode', id: 1289197285
 mas 'Day One', id: 1055511498
 mas 'Marked 2', id: 890031187
 mas 'GoodNotes', id: 1444383602
+mas 'Notability', id: 360593530
 
 cask 'macjournal'
 
@@ -51,7 +56,6 @@ mas 'Unclutter', id: 577085396
 mas 'World Clock Pro', id: 858446756
 # mas 'Amphetamine', id: 937984704
 # mas 'HiddenMe', id: 467040476
-# mas 'GLView', id: 444052073
 
 cask '1password'
 cask 'bartender'
@@ -68,18 +72,19 @@ mas 'Serial', id: 877615577
 # cask 'applepi-baker'
 
 # Reading
-mas 'Pocket', id: 568494494
 mas 'Paprika Recipe Manager 3', id: 1303222628
 
 # requires Rosetta
+# mas 'Pocket', id: 568494494
 # mas 'Kindle', id: 405399194
 # cask 'netnewswire'
 
 mas 'Teleprompter', id: 1533078079
 
 # Web browsers
+cask 'firefox'
 cask 'firefox-developer-edition'
-# cask 'safari-technology-preview'
+cask 'safari-technology-preview'
 # cask 'microsoft-edge'
 # cask 'google-chrome'
 
@@ -89,7 +94,8 @@ cask 'firefox-developer-edition'
 mas 'Xcode', id: 497799835
 mas 'Developer', id: 640199958
 mas 'Swift Playgrounds', id: 1496833156
-# 'TestFlight'
+mas 'TestFlight', id: 899247664
+mas 'GLView', id: 444052073
 
 cask 'sublime-text'
 cask 'visual-studio-code'
@@ -105,17 +111,19 @@ cask 'kaleidoscope'
 
 brew 'go'
 brew 'hugo'
-# brew 'jq'
 
 # cask 'postman'
 cask 'ngrok'
+# brew 'jq'
+# brew 'openapi-generator'
 
 cask 'postgres-unofficial'
 cask 'postico'
 
 cask 'imageoptim'
 
-# cask 'blender'
+cask 'blender'
+# blender-benchmark requires Rosetta
 # cask 'blender-benchmark'
 
 # brew 'deno'
@@ -129,8 +137,6 @@ cask 'imageoptim'
 # brew 'openssl'
 
 # cask 'iterm2'
-# brew 'jq'
-# brew 'openapi-generator'
 
 # brew 'ruby'
 # brew 'python'

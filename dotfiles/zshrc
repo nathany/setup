@@ -9,7 +9,7 @@ ZSH_THEME="refined"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(brew vagrant colored-man-pages asdf)
+plugins=(brew colored-man-pages)
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -31,15 +31,11 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # RCM
-export DOTFILES_DIRS=$HOME/src/github.com/nathany/dotfiles
+export DOTFILES_DIRS=$HOME/src/github.com/nathany/setup/dotfiles
 
-export EDITOR="code -w"
+export EDITOR="subl -w"
 
 # cd..
-export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany:$HOME/src/go.googlesource.com:$HOME/src/go.googlesource.com/go1.16/src:$HOME/src/golang.org
+export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany
 
 # eval "$(gh alias -s)"
-
-
-# added by travis gem
-# [ -f /Users/nathany/.travis/travis.sh ] && source /Users/nathany/.travis/travis.sh
