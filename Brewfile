@@ -10,6 +10,7 @@ brew 'mas' # Mac App Store CLI
 
 # mas 'Disk Speed Test', id: 425264550
 # geekbench, cinebench, 3DMark Wild Life Extreme
+cask 'tg-pro'
 
 # Productivity
 mas 'Things', id: 904280696
@@ -18,6 +19,8 @@ mas 'Things', id: 904280696
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
+cask 'omnigraffle'
+cask 'omnioutliner'
 
 # Photo and video
 mas 'Adobe Lightroom', id: 1451544217
@@ -64,6 +67,7 @@ cask 'bartender'
 cask 'arq'
 cask 'daisydisk'
 cask 'appcleaner'
+cask 'transmit'
 
 # Homebrew doesn't have Universal binary for Apple Silicon
 # cask 'superduper'
@@ -108,7 +112,7 @@ brew 'gh'
 # brew 'hub'
 cask 'sublime-merge'
 cask 'kaleidoscope'
-# cask 'tower'
+cask 'tower'
 
 brew 'go'
 brew 'hugo'
