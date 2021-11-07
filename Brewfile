@@ -73,11 +73,12 @@ mas 'Serial', id: 877615577
 
 # Reading
 mas 'Paprika Recipe Manager 3', id: 1303222628
+cask 'netnewswire'
 
-# requires Rosetta
+# Rosetta 2 required
+# sudo softwareupdate --install-rosetta
 # mas 'Pocket', id: 568494494
 # mas 'Kindle', id: 405399194
-# cask 'netnewswire'
 
 mas 'Teleprompter', id: 1533078079
 
