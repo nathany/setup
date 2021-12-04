@@ -119,6 +119,7 @@ brew 'hugo'
 
 # cask 'postman'
 cask 'ngrok'
+# cask 'proxyman'
 # brew 'jq'
 # brew 'openapi-generator'
 
