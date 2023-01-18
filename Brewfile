@@ -34,7 +34,6 @@ cask 'screenflow'
 # Communication
 mas 'Cardhop', id: 1290358394
 mas 'Slack', id: 803453959
-mas 'Tweetbot', id: 1384080005
 # cask 'keybase'
 
 # Design
