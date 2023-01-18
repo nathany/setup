@@ -2,15 +2,15 @@
 tap 'homebrew/cask-versions' 
 
 brew 'rcm'
-
 brew 'mas' # Mac App Store CLI
 
 # TODO: use whalebrew instead of installing deps directly (ffmpeg, etc)
+
 # cask 'docker'
 
 # mas 'Disk Speed Test', id: 425264550
 # geekbench, cinebench, 3DMark Wild Life Extreme
-cask 'tg-pro'
+# cask 'tg-pro'
 
 # Productivity
 mas 'Things', id: 904280696
@@ -23,7 +23,6 @@ cask 'omnigraffle'
 cask 'omnioutliner'
 
 # Photo and video
-mas 'Adobe Lightroom', id: 1451544217
 mas 'Final Cut Pro', id: 424389933
 mas 'Motion', id: 434290957
 mas 'iMovie', id: 408981434
@@ -38,17 +37,16 @@ mas 'Slack', id: 803453959
 
 # Design
 mas 'Pixelmator Pro', id: 1289583905
-mas 'Affinity Photo', id: 824183456
-mas 'Affinity Designer', id: 824171161
-cask 'affinity-publisher'
 mas 'MindNode', id: 1289197285
+cask 'affinity-designer'
+cask 'affinity-photo'
+cask 'affinity-publisher'
 
 # Writing
 mas 'Day One', id: 1055511498
 mas 'Marked 2', id: 890031187
 mas 'GoodNotes', id: 1444383602
 mas 'Notability', id: 360593530
-
 cask 'macjournal'
 
 # Utilities
@@ -68,8 +66,7 @@ cask 'daisydisk'
 cask 'appcleaner'
 cask 'transmit'
 
-# Homebrew doesn't have Universal binary for Apple Silicon
-# cask 'superduper'
+cask 'superduper'
 
 mas 'Serial', id: 877615577
 # cask 'applepi-baker'
@@ -77,11 +74,6 @@ mas 'Serial', id: 877615577
 # Reading
 mas 'Paprika Recipe Manager 3', id: 1303222628
 cask 'netnewswire'
-
-# Rosetta 2 required
-# sudo softwareupdate --install-rosetta
-# mas 'Pocket', id: 568494494
-# mas 'Kindle', id: 405399194
 
 mas 'Teleprompter', id: 1533078079
 
@@ -108,7 +100,6 @@ cask 'dash'
 brew 'git'
 # brew 'git-lfs'
 brew 'gh'
-# brew 'hub'
 cask 'sublime-merge'
 cask 'kaleidoscope'
 cask 'tower'
@@ -149,7 +140,6 @@ cask 'blender'
 # brew 'luajit'
 
 # brew 'graphviz' # for goviz
-# brew 'readline' # for Looper
 
 # brew 'awscli'
 # brew 'kubectl'
@@ -189,10 +179,6 @@ cask 'blender'
 # cask 'vlc'
 # cask 'kodi'
 
-# cask 'omnigraffle'
-# cask 'omnioutliner'
-# cask 'omnifocus'
 # mellel
 
 # cask 'xquartz'
-
