@@ -33,6 +33,7 @@ cask 'screenflow'
 # Communication
 mas 'Cardhop', id: 1290358394
 mas 'Slack', id: 803453959
+cask 'zulip'
 # cask 'keybase'
 
 # Design
@@ -107,6 +108,8 @@ cask 'tower'
 brew 'go'
 brew 'hugo'
 
+brew 'elixir'
+
 # cask 'postman'
 cask 'ngrok'
 # cask 'proxyman'
@@ -122,7 +125,7 @@ cask 'blender'
 # blender-benchmark requires Rosetta
 # cask 'blender-benchmark'
 
-# brew 'deno'
+brew 'deno'
 # brew 'node'
 # brew 'yarn'
 
