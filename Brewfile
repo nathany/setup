@@ -106,9 +106,13 @@ cask 'kaleidoscope'
 cask 'tower'
 
 brew 'go'
+brew 'zig'
+
 brew 'hugo'
+brew 'zola'
 
 brew 'elixir'
+brew 'livebook'
 
 # cask 'postman'
 cask 'ngrok'
