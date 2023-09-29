@@ -106,10 +106,9 @@ cask 'kaleidoscope'
 cask 'tower'
 
 brew 'go'
-brew 'zig'
 
 brew 'hugo'
-brew 'zola'
+# brew 'zola'
 
 brew 'elixir'
 brew 'livebook'
@@ -129,7 +128,7 @@ cask 'blender'
 # blender-benchmark requires Rosetta
 # cask 'blender-benchmark'
 
-brew 'deno'
+# brew 'deno'
 # brew 'node'
 # brew 'yarn'
 
