@@ -59,7 +59,7 @@ mas 'World Clock Pro', id: 858446756
 # mas 'HiddenMe', id: 467040476
 
 cask '1password'
-cask 'bartender'
+# cask 'bartender'
 # cask 'alfred'
 
 cask 'arq'
@@ -79,9 +79,9 @@ cask 'netnewswire'
 mas 'Teleprompter', id: 1533078079
 
 # Web browsers
-cask 'firefox'
+# cask 'firefox'
 cask 'firefox-developer-edition'
-cask 'safari-technology-preview'
+# cask 'safari-technology-preview'
 # cask 'microsoft-edge'
 # cask 'google-chrome'
 
@@ -101,17 +101,14 @@ cask 'dash'
 brew 'git'
 # brew 'git-lfs'
 brew 'gh'
-cask 'sublime-merge'
-cask 'kaleidoscope'
+# cask 'sublime-merge'
+# cask 'kaleidoscope'
 cask 'tower'
 
 brew 'go'
 
 brew 'hugo'
 # brew 'zola'
-
-brew 'elixir'
-brew 'livebook'
 
 # cask 'postman'
 cask 'ngrok'
@@ -140,7 +137,9 @@ cask 'blender'
 
 # cask 'iterm2'
 
-# brew 'ruby'
+# ruby for asciidoctor
+brew 'ruby'
+
 # brew 'python'
 # brew 'lua'
 # brew 'luajit'
