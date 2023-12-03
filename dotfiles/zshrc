@@ -39,3 +39,6 @@ export EDITOR="subl -w"
 export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany
 
 # eval "$(gh alias -s)"
+
+# Use Ruby from Homebrew
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
