@@ -106,9 +106,12 @@ brew 'gh'
 cask 'tower'
 
 brew 'go'
-
 brew 'hugo'
 # brew 'zola'
+
+# brew 'asdf'
+# brew 'elixir'
+# brew 'erlang'
 
 # cask 'postman'
 cask 'ngrok'
@@ -117,7 +120,8 @@ cask 'ngrok'
 # brew 'openapi-generator'
 
 cask 'postgres-unofficial'
-cask 'postico'
+# cask 'postico'
+cask 'tableplus'
 
 cask 'imageoptim'
 
