@@ -19,8 +19,8 @@ mas 'Things', id: 904280696
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
-cask 'omnigraffle'
-cask 'omnioutliner'
+# cask 'omnigraffle'
+# cask 'omnioutliner'
 
 # Photo and video
 mas 'Final Cut Pro', id: 424389933
@@ -49,6 +49,10 @@ mas 'Marked 2', id: 890031187
 mas 'GoodNotes', id: 1444383602
 mas 'Notability', id: 360593530
 cask 'macjournal'
+
+# Note Taking
+mas 'Bear', id: 1091189122
+cask 'obsidian'
 
 # Utilities
 mas 'Deliveries', id: 290986013
@@ -104,14 +108,13 @@ brew 'gh'
 # cask 'sublime-merge'
 # cask 'kaleidoscope'
 cask 'tower'
+cask 'github'
 
 brew 'go'
+# brew 'zig'
+
 brew 'hugo'
 # brew 'zola'
-
-# brew 'asdf'
-# brew 'elixir'
-# brew 'erlang'
 
 # cask 'postman'
 cask 'ngrok'
