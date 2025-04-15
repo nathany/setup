@@ -98,7 +98,7 @@ mas 'Swift Playgrounds', id: 1496833156
 mas 'TestFlight', id: 899247664
 mas 'GLView', id: 444052073
 
-cask 'sublime-text'
+# cask 'sublime-text'
 cask 'visual-studio-code'
 cask 'dash'
 
@@ -107,7 +107,7 @@ brew 'git'
 brew 'gh'
 # cask 'sublime-merge'
 # cask 'kaleidoscope'
-cask 'tower'
+# cask 'tower'
 cask 'github'
 
 brew 'go'
