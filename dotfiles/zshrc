@@ -21,8 +21,8 @@ unsetopt correct_all
 export DOTFILES_DIRS=$HOME/src/github.com/nathany/setup/dotfiles
 
 # export EDITOR="subl -w"
-# export EDITOR="code --wait"
-export EDITOR="zed --wait"
+# export EDITOR="zed --wait"
+export EDITOR="code --wait"
 
 # cd..
 export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany
@@ -32,5 +32,5 @@ export CDPATH=.:$HOME/src/github.com:$HOME/src/github.com/nathany
 # Use Ruby from Homebrew
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
-# LLVM
-# export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+# LLVM (for building Carbon from source)
+# export PATH="$(brew --prefix llvm)/bin:${PATH}"
